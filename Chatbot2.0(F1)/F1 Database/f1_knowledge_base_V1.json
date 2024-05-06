@@ -1,0 +1,445 @@
+{
+    "drivers": {
+        "max_verstappen": {
+            "team": "Red Bull",
+            "wins": [
+                {
+                    "race": "Bahrain Grand Prix",
+                    "year": 2024,
+                    "track": "Bahrain International Circuit",
+                    "date": "2024-03-02",
+                    "lap_time": "1:32.608",
+                    "average_speed": "210.383 kph"
+                },
+                {
+                    "race": "Saudi Arabian Grand Prix",
+                    "year": 2024,
+                    "track": "Jeddah Corniche Circuit",
+                    "date": "2024-03-09",
+                    "lap_time": "1:31.773",
+                    "average_speed": "242.188 kph"
+                },
+                {
+                    "race": "Japanese Grand Prix",
+                    "year": 2024,
+                    "track": "Suzuka Circuit",
+                    "date": "2024-04-07",
+                    "lap_time": "1:33.706",
+                    "average_speed": "223.093 kph"
+                },
+                {
+                    "race": "Chinese Grand Prix",
+                    "year": 2024,
+                    "track": "Shanghai International Circuit",
+                    "date": "2024-04-21",
+                    "lap_time": "1:38.406",
+                    "average_speed": "199.414 kph"
+                },
+                {
+                    "race": "Bahrain Grand Prix",
+                    "year": 2024,
+                    "track": "Bahrain International Circuit",
+                    "date": "2024-03-02",
+                    "lap_time": "1:32.608",
+                    "average_speed": "210.383 kph"
+                },
+                {
+                    "race": "Saudi Arabian Grand Prix",
+                    "year": 2024,
+                    "track": "Jeddah Corniche Circuit",
+                    "date": "2024-03-09",
+                    "lap_time": "1:31.773",
+                    "average_speed": "242.188 kph"
+                },
+                {
+                    "race": "Japanese Grand Prix",
+                    "year": 2024,
+                    "track": "Suzuka Circuit",
+                    "date": "2024-04-07",
+                    "lap_time": "1:33.706",
+                    "average_speed": "223.093 kph"
+                },
+                {
+                    "race": "Chinese Grand Prix",
+                    "year": 2024,
+                    "track": "Shanghai International Circuit",
+                    "date": "2024-04-21",
+                    "lap_time": "1:38.406",
+                    "average_speed": "199.414 kph"
+                },
+                {
+                    "race": "Bahrain Grand Prix",
+                    "year": 2024,
+                    "track": "Bahrain International Circuit",
+                    "date": "2024-03-02",
+                    "lap_time": "1:32.608",
+                    "average_speed": "210.383 kph"
+                },
+                {
+                    "race": "Saudi Arabian Grand Prix",
+                    "year": 2024,
+                    "track": "Jeddah Corniche Circuit",
+                    "date": "2024-03-09",
+                    "lap_time": "1:31.773",
+                    "average_speed": "242.188 kph"
+                },
+                {
+                    "race": "Japanese Grand Prix",
+                    "year": 2024,
+                    "track": "Suzuka Circuit",
+                    "date": "2024-04-07",
+                    "lap_time": "1:33.706",
+                    "average_speed": "223.093 kph"
+                },
+                {
+                    "race": "Chinese Grand Prix",
+                    "year": 2024,
+                    "track": "Shanghai International Circuit",
+                    "date": "2024-04-21",
+                    "lap_time": "1:38.406",
+                    "average_speed": "199.414 kph"
+                },
+                {
+                    "race": "Bahrain Grand Prix",
+                    "year": 2024,
+                    "track": "Bahrain International Circuit",
+                    "date": "2024-03-02",
+                    "lap_time": "1:32.608",
+                    "average_speed": "210.383 kph"
+                },
+                {
+                    "race": "Saudi Arabian Grand Prix",
+                    "year": 2024,
+                    "track": "Jeddah Corniche Circuit",
+                    "date": "2024-03-09",
+                    "lap_time": "1:31.773",
+                    "average_speed": "242.188 kph"
+                },
+                {
+                    "race": "Japanese Grand Prix",
+                    "year": 2024,
+                    "track": "Suzuka Circuit",
+                    "date": "2024-04-07",
+                    "lap_time": "1:33.706",
+                    "average_speed": "223.093 kph"
+                },
+                {
+                    "race": "Chinese Grand Prix",
+                    "year": 2024,
+                    "track": "Shanghai International Circuit",
+                    "date": "2024-04-21",
+                    "lap_time": "1:38.406",
+                    "average_speed": "199.414 kph"
+                },
+                {
+                    "race": "Bahrain Grand Prix",
+                    "year": 2024,
+                    "track": "Bahrain International Circuit",
+                    "date": "2024-03-02",
+                    "lap_time": "1:32.608",
+                    "average_speed": "210.383 kph"
+                },
+                {
+                    "race": "Saudi Arabian Grand Prix",
+                    "year": 2024,
+                    "track": "Jeddah Corniche Circuit",
+                    "date": "2024-03-09",
+                    "lap_time": "1:31.773",
+                    "average_speed": "242.188 kph"
+                },
+                {
+                    "race": "Japanese Grand Prix",
+                    "year": 2024,
+                    "track": "Suzuka Circuit",
+                    "date": "2024-04-07",
+                    "lap_time": "1:33.706",
+                    "average_speed": "223.093 kph"
+                },
+                {
+                    "race": "Chinese Grand Prix",
+                    "year": 2024,
+                    "track": "Shanghai International Circuit",
+                    "date": "2024-04-21",
+                    "lap_time": "1:38.406",
+                    "average_speed": "199.414 kph"
+                }
+            ]
+        },
+        "sainz": {
+            "team": "Ferrari",
+            "wins": [
+                {
+                    "race": "Australian Grand Prix",
+                    "year": 2024,
+                    "track": "Albert Park Grand Prix Circuit",
+                    "date": "2024-03-24",
+                    "lap_time": "1:20.031",
+                    "average_speed": "237.418 kph"
+                },
+                {
+                    "race": "Australian Grand Prix",
+                    "year": 2024,
+                    "track": "Albert Park Grand Prix Circuit",
+                    "date": "2024-03-24",
+                    "lap_time": "1:20.031",
+                    "average_speed": "237.418 kph"
+                },
+                {
+                    "race": "Australian Grand Prix",
+                    "year": 2024,
+                    "track": "Albert Park Grand Prix Circuit",
+                    "date": "2024-03-24",
+                    "lap_time": "1:20.031",
+                    "average_speed": "237.418 kph"
+                },
+                {
+                    "race": "Australian Grand Prix",
+                    "year": 2024,
+                    "track": "Albert Park Grand Prix Circuit",
+                    "date": "2024-03-24",
+                    "lap_time": "1:20.031",
+                    "average_speed": "237.418 kph"
+                },
+                {
+                    "race": "Australian Grand Prix",
+                    "year": 2024,
+                    "track": "Albert Park Grand Prix Circuit",
+                    "date": "2024-03-24",
+                    "lap_time": "1:20.031",
+                    "average_speed": "237.418 kph"
+                }
+            ]
+        }
+    },
+    "races": {
+        "2024": [
+            {
+                "name": "Bahrain Grand Prix",
+                "date": "2024-03-02",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Bahrain International Circuit"
+            },
+            {
+                "name": "Saudi Arabian Grand Prix",
+                "date": "2024-03-09",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Jeddah Corniche Circuit"
+            },
+            {
+                "name": "Australian Grand Prix",
+                "date": "2024-03-24",
+                "winners": [
+                    "sainz"
+                ],
+                "track": "Albert Park Grand Prix Circuit"
+            },
+            {
+                "name": "Japanese Grand Prix",
+                "date": "2024-04-07",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Suzuka Circuit"
+            },
+            {
+                "name": "Chinese Grand Prix",
+                "date": "2024-04-21",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Shanghai International Circuit"
+            },
+            {
+                "name": "Bahrain Grand Prix",
+                "date": "2024-03-02",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Bahrain International Circuit"
+            },
+            {
+                "name": "Saudi Arabian Grand Prix",
+                "date": "2024-03-09",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Jeddah Corniche Circuit"
+            },
+            {
+                "name": "Australian Grand Prix",
+                "date": "2024-03-24",
+                "winners": [
+                    "sainz"
+                ],
+                "track": "Albert Park Grand Prix Circuit"
+            },
+            {
+                "name": "Japanese Grand Prix",
+                "date": "2024-04-07",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Suzuka Circuit"
+            },
+            {
+                "name": "Chinese Grand Prix",
+                "date": "2024-04-21",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Shanghai International Circuit"
+            },
+            {
+                "name": "Bahrain Grand Prix",
+                "date": "2024-03-02",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Bahrain International Circuit"
+            },
+            {
+                "name": "Saudi Arabian Grand Prix",
+                "date": "2024-03-09",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Jeddah Corniche Circuit"
+            },
+            {
+                "name": "Australian Grand Prix",
+                "date": "2024-03-24",
+                "winners": [
+                    "sainz"
+                ],
+                "track": "Albert Park Grand Prix Circuit"
+            },
+            {
+                "name": "Japanese Grand Prix",
+                "date": "2024-04-07",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Suzuka Circuit"
+            },
+            {
+                "name": "Chinese Grand Prix",
+                "date": "2024-04-21",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Shanghai International Circuit"
+            },
+            {
+                "name": "Bahrain Grand Prix",
+                "date": "2024-03-02",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Bahrain International Circuit"
+            },
+            {
+                "name": "Saudi Arabian Grand Prix",
+                "date": "2024-03-09",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Jeddah Corniche Circuit"
+            },
+            {
+                "name": "Australian Grand Prix",
+                "date": "2024-03-24",
+                "winners": [
+                    "sainz"
+                ],
+                "track": "Albert Park Grand Prix Circuit"
+            },
+            {
+                "name": "Japanese Grand Prix",
+                "date": "2024-04-07",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Suzuka Circuit"
+            },
+            {
+                "name": "Chinese Grand Prix",
+                "date": "2024-04-21",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Shanghai International Circuit"
+            },
+            {
+                "name": "Bahrain Grand Prix",
+                "date": "2024-03-02",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Bahrain International Circuit"
+            },
+            {
+                "name": "Saudi Arabian Grand Prix",
+                "date": "2024-03-09",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Jeddah Corniche Circuit"
+            },
+            {
+                "name": "Australian Grand Prix",
+                "date": "2024-03-24",
+                "winners": [
+                    "sainz"
+                ],
+                "track": "Albert Park Grand Prix Circuit"
+            },
+            {
+                "name": "Japanese Grand Prix",
+                "date": "2024-04-07",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Suzuka Circuit"
+            },
+            {
+                "name": "Chinese Grand Prix",
+                "date": "2024-04-21",
+                "winners": [
+                    "max_verstappen"
+                ],
+                "track": "Shanghai International Circuit"
+            }
+        ]
+    },
+    "tracks": {
+        "Bahrain International Circuit": {
+            "location": "Bahrain",
+            "best_time_lap": "1:32.608",
+            "record_holder": "max_verstappen"
+        },
+        "Jeddah Corniche Circuit": {
+            "location": "Saudi Arabia",
+            "best_time_lap": "1:31.773",
+            "record_holder": "max_verstappen"
+        },
+        "Albert Park Grand Prix Circuit": {
+            "location": "Australia",
+            "best_time_lap": "1:20.031",
+            "record_holder": "sainz"
+        },
+        "Suzuka Circuit": {
+            "location": "Japan",
+            "best_time_lap": "1:33.706",
+            "record_holder": "max_verstappen"
+        },
+        "Shanghai International Circuit": {
+            "location": "China",
+            "best_time_lap": "1:38.406",
+            "record_holder": "max_verstappen"
+        }
+    }
+}

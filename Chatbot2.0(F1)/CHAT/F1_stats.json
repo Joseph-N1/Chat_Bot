@@ -1,0 +1,3432 @@
+{
+    "F1_data": {
+        "2024": {
+            "drivers": {
+                "max_verstappen": {
+                    "wins": [
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2024-03-02",
+                            "lap_time": "1:32.608",
+                            "average_speed": "210.383 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2024-03-09",
+                            "lap_time": "1:31.773",
+                            "average_speed": "242.188 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2024-04-07",
+                            "lap_time": "1:33.706",
+                            "average_speed": "223.093 kph"
+                        },
+                        {
+                            "race": "Chinese Grand Prix",
+                            "track": "Shanghai International Circuit",
+                            "date": "2024-04-21",
+                            "lap_time": "1:38.406",
+                            "average_speed": "199.414 kph"
+                        }
+                    ]
+                },
+                "sainz": {
+                    "wins": [
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2024-03-24",
+                            "lap_time": "1:20.031",
+                            "average_speed": "237.418 kph"
+                        }
+                    ]
+                }
+            }
+        },
+        "2020": {
+            "drivers": {
+                "bottas": {
+                    "wins": [
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-05",
+                            "lap_time": "1:07.657",
+                            "average_speed": "229.758 kph"
+                        },
+                        {
+                            "race": "Russian Grand Prix",
+                            "track": "Sochi Autodrom",
+                            "date": "2020-09-27",
+                            "lap_time": "1:37.030",
+                            "average_speed": "216.972 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-05",
+                            "lap_time": "1:07.657",
+                            "average_speed": "229.758 kph"
+                        },
+                        {
+                            "race": "Russian Grand Prix",
+                            "track": "Sochi Autodrom",
+                            "date": "2020-09-27",
+                            "lap_time": "1:37.030",
+                            "average_speed": "216.972 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-05",
+                            "lap_time": "1:07.657",
+                            "average_speed": "229.758 kph"
+                        },
+                        {
+                            "race": "Russian Grand Prix",
+                            "track": "Sochi Autodrom",
+                            "date": "2020-09-27",
+                            "lap_time": "1:37.030",
+                            "average_speed": "216.972 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-05",
+                            "lap_time": "1:07.657",
+                            "average_speed": "229.758 kph"
+                        },
+                        {
+                            "race": "Russian Grand Prix",
+                            "track": "Sochi Autodrom",
+                            "date": "2020-09-27",
+                            "lap_time": "1:37.030",
+                            "average_speed": "216.972 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-05",
+                            "lap_time": "1:07.657",
+                            "average_speed": "229.758 kph"
+                        },
+                        {
+                            "race": "Russian Grand Prix",
+                            "track": "Sochi Autodrom",
+                            "date": "2020-09-27",
+                            "lap_time": "1:37.030",
+                            "average_speed": "216.972 kph"
+                        }
+                    ]
+                },
+                "hamilton": {
+                    "wins": [
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-12",
+                            "lap_time": "1:06.719",
+                            "average_speed": "232.989 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2020-07-19",
+                            "lap_time": "1:16.627",
+                            "average_speed": "205.823 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-02",
+                            "lap_time": "1:29.238",
+                            "average_speed": "237.652 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2020-08-16",
+                            "lap_time": "1:19.822",
+                            "average_speed": "209.942 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2020-08-30",
+                            "lap_time": "1:47.758",
+                            "average_speed": "233.990 kph"
+                        },
+                        {
+                            "race": "Tuscan Grand Prix",
+                            "track": "Autodromo Internazionale del Mugello",
+                            "date": "2020-09-13",
+                            "lap_time": "1:18.833",
+                            "average_speed": "239.518 kph"
+                        },
+                        {
+                            "race": "Eifel Grand Prix",
+                            "track": "Nürburgring",
+                            "date": "2020-10-11",
+                            "lap_time": "1:28.145",
+                            "average_speed": "210.253 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2020-10-25",
+                            "lap_time": "1:18.750",
+                            "average_speed": "212.708 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2020-11-01",
+                            "lap_time": "1:15.484",
+                            "average_speed": "234.121 kph"
+                        },
+                        {
+                            "race": "Turkish Grand Prix",
+                            "track": "Istanbul Park",
+                            "date": "2020-11-15",
+                            "lap_time": "1:39.413",
+                            "average_speed": "193.302 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-11-29",
+                            "lap_time": "1:32.864",
+                            "average_speed": "209.803 kph"
+                        },
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-12",
+                            "lap_time": "1:06.719",
+                            "average_speed": "232.989 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2020-07-19",
+                            "lap_time": "1:16.627",
+                            "average_speed": "205.823 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-02",
+                            "lap_time": "1:29.238",
+                            "average_speed": "237.652 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2020-08-16",
+                            "lap_time": "1:19.822",
+                            "average_speed": "209.942 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2020-08-30",
+                            "lap_time": "1:47.758",
+                            "average_speed": "233.990 kph"
+                        },
+                        {
+                            "race": "Tuscan Grand Prix",
+                            "track": "Autodromo Internazionale del Mugello",
+                            "date": "2020-09-13",
+                            "lap_time": "1:18.833",
+                            "average_speed": "239.518 kph"
+                        },
+                        {
+                            "race": "Eifel Grand Prix",
+                            "track": "Nürburgring",
+                            "date": "2020-10-11",
+                            "lap_time": "1:28.145",
+                            "average_speed": "210.253 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2020-10-25",
+                            "lap_time": "1:18.750",
+                            "average_speed": "212.708 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2020-11-01",
+                            "lap_time": "1:15.484",
+                            "average_speed": "234.121 kph"
+                        },
+                        {
+                            "race": "Turkish Grand Prix",
+                            "track": "Istanbul Park",
+                            "date": "2020-11-15",
+                            "lap_time": "1:39.413",
+                            "average_speed": "193.302 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-11-29",
+                            "lap_time": "1:32.864",
+                            "average_speed": "209.803 kph"
+                        },
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-12",
+                            "lap_time": "1:06.719",
+                            "average_speed": "232.989 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2020-07-19",
+                            "lap_time": "1:16.627",
+                            "average_speed": "205.823 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-02",
+                            "lap_time": "1:29.238",
+                            "average_speed": "237.652 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2020-08-16",
+                            "lap_time": "1:19.822",
+                            "average_speed": "209.942 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2020-08-30",
+                            "lap_time": "1:47.758",
+                            "average_speed": "233.990 kph"
+                        },
+                        {
+                            "race": "Tuscan Grand Prix",
+                            "track": "Autodromo Internazionale del Mugello",
+                            "date": "2020-09-13",
+                            "lap_time": "1:18.833",
+                            "average_speed": "239.518 kph"
+                        },
+                        {
+                            "race": "Eifel Grand Prix",
+                            "track": "Nürburgring",
+                            "date": "2020-10-11",
+                            "lap_time": "1:28.145",
+                            "average_speed": "210.253 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2020-10-25",
+                            "lap_time": "1:18.750",
+                            "average_speed": "212.708 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2020-11-01",
+                            "lap_time": "1:15.484",
+                            "average_speed": "234.121 kph"
+                        },
+                        {
+                            "race": "Turkish Grand Prix",
+                            "track": "Istanbul Park",
+                            "date": "2020-11-15",
+                            "lap_time": "1:39.413",
+                            "average_speed": "193.302 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-11-29",
+                            "lap_time": "1:32.864",
+                            "average_speed": "209.803 kph"
+                        },
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-12",
+                            "lap_time": "1:06.719",
+                            "average_speed": "232.989 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2020-07-19",
+                            "lap_time": "1:16.627",
+                            "average_speed": "205.823 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-02",
+                            "lap_time": "1:29.238",
+                            "average_speed": "237.652 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2020-08-16",
+                            "lap_time": "1:19.822",
+                            "average_speed": "209.942 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2020-08-30",
+                            "lap_time": "1:47.758",
+                            "average_speed": "233.990 kph"
+                        },
+                        {
+                            "race": "Tuscan Grand Prix",
+                            "track": "Autodromo Internazionale del Mugello",
+                            "date": "2020-09-13",
+                            "lap_time": "1:18.833",
+                            "average_speed": "239.518 kph"
+                        },
+                        {
+                            "race": "Eifel Grand Prix",
+                            "track": "Nürburgring",
+                            "date": "2020-10-11",
+                            "lap_time": "1:28.145",
+                            "average_speed": "210.253 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2020-10-25",
+                            "lap_time": "1:18.750",
+                            "average_speed": "212.708 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2020-11-01",
+                            "lap_time": "1:15.484",
+                            "average_speed": "234.121 kph"
+                        },
+                        {
+                            "race": "Turkish Grand Prix",
+                            "track": "Istanbul Park",
+                            "date": "2020-11-15",
+                            "lap_time": "1:39.413",
+                            "average_speed": "193.302 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-11-29",
+                            "lap_time": "1:32.864",
+                            "average_speed": "209.803 kph"
+                        },
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2020-07-12",
+                            "lap_time": "1:06.719",
+                            "average_speed": "232.989 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2020-07-19",
+                            "lap_time": "1:16.627",
+                            "average_speed": "205.823 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-02",
+                            "lap_time": "1:29.238",
+                            "average_speed": "237.652 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2020-08-16",
+                            "lap_time": "1:19.822",
+                            "average_speed": "209.942 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2020-08-30",
+                            "lap_time": "1:47.758",
+                            "average_speed": "233.990 kph"
+                        },
+                        {
+                            "race": "Tuscan Grand Prix",
+                            "track": "Autodromo Internazionale del Mugello",
+                            "date": "2020-09-13",
+                            "lap_time": "1:18.833",
+                            "average_speed": "239.518 kph"
+                        },
+                        {
+                            "race": "Eifel Grand Prix",
+                            "track": "Nürburgring",
+                            "date": "2020-10-11",
+                            "lap_time": "1:28.145",
+                            "average_speed": "210.253 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2020-10-25",
+                            "lap_time": "1:18.750",
+                            "average_speed": "212.708 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2020-11-01",
+                            "lap_time": "1:15.484",
+                            "average_speed": "234.121 kph"
+                        },
+                        {
+                            "race": "Turkish Grand Prix",
+                            "track": "Istanbul Park",
+                            "date": "2020-11-15",
+                            "lap_time": "1:39.413",
+                            "average_speed": "193.302 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-11-29",
+                            "lap_time": "1:32.864",
+                            "average_speed": "209.803 kph"
+                        }
+                    ]
+                },
+                "max_verstappen": {
+                    "wins": [
+                        {
+                            "race": "70th Anniversary Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-09",
+                            "lap_time": "1:29.465",
+                            "average_speed": "237.049 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2020-12-13",
+                            "lap_time": "1:40.958",
+                            "average_speed": "198.046 kph"
+                        },
+                        {
+                            "race": "70th Anniversary Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-09",
+                            "lap_time": "1:29.465",
+                            "average_speed": "237.049 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2020-12-13",
+                            "lap_time": "1:40.958",
+                            "average_speed": "198.046 kph"
+                        },
+                        {
+                            "race": "70th Anniversary Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-09",
+                            "lap_time": "1:29.465",
+                            "average_speed": "237.049 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2020-12-13",
+                            "lap_time": "1:40.958",
+                            "average_speed": "198.046 kph"
+                        },
+                        {
+                            "race": "70th Anniversary Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-09",
+                            "lap_time": "1:29.465",
+                            "average_speed": "237.049 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2020-12-13",
+                            "lap_time": "1:40.958",
+                            "average_speed": "198.046 kph"
+                        },
+                        {
+                            "race": "70th Anniversary Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2020-08-09",
+                            "lap_time": "1:29.465",
+                            "average_speed": "237.049 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2020-12-13",
+                            "lap_time": "1:40.958",
+                            "average_speed": "198.046 kph"
+                        }
+                    ]
+                },
+                "gasly": {
+                    "wins": [
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2020-09-06",
+                            "lap_time": "1:24.037",
+                            "average_speed": "248.162 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2020-09-06",
+                            "lap_time": "1:24.037",
+                            "average_speed": "248.162 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2020-09-06",
+                            "lap_time": "1:24.037",
+                            "average_speed": "248.162 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2020-09-06",
+                            "lap_time": "1:24.037",
+                            "average_speed": "248.162 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2020-09-06",
+                            "lap_time": "1:24.037",
+                            "average_speed": "248.162 kph"
+                        }
+                    ]
+                },
+                "perez": {
+                    "wins": [
+                        {
+                            "race": "Sakhir Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-12-06",
+                            "lap_time": "0:56.789",
+                            "average_speed": "224.599 kph"
+                        },
+                        {
+                            "race": "Sakhir Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-12-06",
+                            "lap_time": "0:56.789",
+                            "average_speed": "224.599 kph"
+                        },
+                        {
+                            "race": "Sakhir Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-12-06",
+                            "lap_time": "0:56.789",
+                            "average_speed": "224.599 kph"
+                        },
+                        {
+                            "race": "Sakhir Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-12-06",
+                            "lap_time": "0:56.789",
+                            "average_speed": "224.599 kph"
+                        },
+                        {
+                            "race": "Sakhir Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2020-12-06",
+                            "lap_time": "0:56.789",
+                            "average_speed": "224.599 kph"
+                        }
+                    ]
+                }
+            }
+        },
+        "2021": {
+            "drivers": {
+                "hamilton": {
+                    "wins": [
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2021-03-28",
+                            "lap_time": "1:34.015",
+                            "average_speed": "207.235 kph"
+                        },
+                        {
+                            "race": "Portuguese Grand Prix",
+                            "track": "Autódromo Internacional do Algarve",
+                            "date": "2021-05-02",
+                            "lap_time": "1:20.933",
+                            "average_speed": "206.971 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2021-05-09",
+                            "lap_time": "1:20.665",
+                            "average_speed": "208.640 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2021-07-18",
+                            "lap_time": "1:29.699",
+                            "average_speed": "236.430 kph"
+                        }
+                    ]
+                },
+                "max_verstappen": {
+                    "wins": [
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2021-04-18",
+                            "lap_time": "1:17.524",
+                            "average_speed": "227.960 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2021-05-23",
+                            "lap_time": "1:14.649",
+                            "average_speed": "160.929 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2021-06-20",
+                            "lap_time": "1:36.404",
+                            "average_speed": "218.156 kph"
+                        },
+                        {
+                            "race": "Styrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2021-06-27",
+                            "lap_time": "1:08.017",
+                            "average_speed": "228.542 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2021-07-04",
+                            "lap_time": "1:06.200",
+                            "average_speed": "234.815 kph"
+                        }
+                    ]
+                },
+                "perez": {
+                    "wins": [
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2021-06-06",
+                            "lap_time": "1:44.687",
+                            "average_speed": "206.432 kph"
+                        }
+                    ]
+                },
+                "ocon": {
+                    "wins": [
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2021-08-01",
+                            "lap_time": "1:21.421",
+                            "average_speed": "193.704 kph"
+                        }
+                    ]
+                }
+            }
+        },
+        "2022": {
+            "drivers": {
+                "max_verstappen": {
+                    "wins": [
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2022-03-27",
+                            "lap_time": "1:31.772",
+                            "average_speed": "242.191 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2022-04-24",
+                            "lap_time": "1:18.446",
+                            "average_speed": "225.281 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2022-05-08",
+                            "lap_time": "1:31.361",
+                            "average_speed": "213.255 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2022-05-22",
+                            "lap_time": "1:25.456",
+                            "average_speed": "196.943 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2022-06-12",
+                            "lap_time": "1:46.050",
+                            "average_speed": "203.779 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2022-06-19",
+                            "lap_time": "1:15.839",
+                            "average_speed": "207.012 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2022-07-24",
+                            "lap_time": "1:37.491",
+                            "average_speed": "215.724 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2022-07-31",
+                            "lap_time": "1:22.126",
+                            "average_speed": "192.041 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2022-08-28",
+                            "lap_time": "1:49.354",
+                            "average_speed": "230.575 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2022-09-04",
+                            "lap_time": "1:13.652",
+                            "average_speed": "208.173 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2022-09-11",
+                            "lap_time": "1:24.745",
+                            "average_speed": "246.088 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2022-10-09",
+                            "lap_time": "1:44.911",
+                            "average_speed": "199.266 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2022-10-23",
+                            "lap_time": "1:39.541",
+                            "average_speed": "199.383 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2022-10-30",
+                            "lap_time": "1:22.046",
+                            "average_speed": "188.850 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2022-11-20",
+                            "lap_time": "1:29.392",
+                            "average_speed": "212.676 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2022-03-27",
+                            "lap_time": "1:31.772",
+                            "average_speed": "242.191 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2022-04-24",
+                            "lap_time": "1:18.446",
+                            "average_speed": "225.281 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2022-05-08",
+                            "lap_time": "1:31.361",
+                            "average_speed": "213.255 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2022-05-22",
+                            "lap_time": "1:25.456",
+                            "average_speed": "196.943 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2022-06-12",
+                            "lap_time": "1:46.050",
+                            "average_speed": "203.779 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2022-06-19",
+                            "lap_time": "1:15.839",
+                            "average_speed": "207.012 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2022-07-24",
+                            "lap_time": "1:37.491",
+                            "average_speed": "215.724 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2022-07-31",
+                            "lap_time": "1:22.126",
+                            "average_speed": "192.041 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2022-08-28",
+                            "lap_time": "1:49.354",
+                            "average_speed": "230.575 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2022-09-04",
+                            "lap_time": "1:13.652",
+                            "average_speed": "208.173 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2022-09-11",
+                            "lap_time": "1:24.745",
+                            "average_speed": "246.088 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2022-10-09",
+                            "lap_time": "1:44.911",
+                            "average_speed": "199.266 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2022-10-23",
+                            "lap_time": "1:39.541",
+                            "average_speed": "199.383 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2022-10-30",
+                            "lap_time": "1:22.046",
+                            "average_speed": "188.850 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2022-11-20",
+                            "lap_time": "1:29.392",
+                            "average_speed": "212.676 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2022-03-27",
+                            "lap_time": "1:31.772",
+                            "average_speed": "242.191 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2022-04-24",
+                            "lap_time": "1:18.446",
+                            "average_speed": "225.281 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2022-05-08",
+                            "lap_time": "1:31.361",
+                            "average_speed": "213.255 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2022-05-22",
+                            "lap_time": "1:25.456",
+                            "average_speed": "196.943 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2022-06-12",
+                            "lap_time": "1:46.050",
+                            "average_speed": "203.779 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2022-06-19",
+                            "lap_time": "1:15.839",
+                            "average_speed": "207.012 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2022-07-24",
+                            "lap_time": "1:37.491",
+                            "average_speed": "215.724 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2022-07-31",
+                            "lap_time": "1:22.126",
+                            "average_speed": "192.041 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2022-08-28",
+                            "lap_time": "1:49.354",
+                            "average_speed": "230.575 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2022-09-04",
+                            "lap_time": "1:13.652",
+                            "average_speed": "208.173 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2022-09-11",
+                            "lap_time": "1:24.745",
+                            "average_speed": "246.088 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2022-10-09",
+                            "lap_time": "1:44.911",
+                            "average_speed": "199.266 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2022-10-23",
+                            "lap_time": "1:39.541",
+                            "average_speed": "199.383 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2022-10-30",
+                            "lap_time": "1:22.046",
+                            "average_speed": "188.850 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2022-11-20",
+                            "lap_time": "1:29.392",
+                            "average_speed": "212.676 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2022-03-27",
+                            "lap_time": "1:31.772",
+                            "average_speed": "242.191 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2022-04-24",
+                            "lap_time": "1:18.446",
+                            "average_speed": "225.281 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2022-05-08",
+                            "lap_time": "1:31.361",
+                            "average_speed": "213.255 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2022-05-22",
+                            "lap_time": "1:25.456",
+                            "average_speed": "196.943 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2022-06-12",
+                            "lap_time": "1:46.050",
+                            "average_speed": "203.779 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2022-06-19",
+                            "lap_time": "1:15.839",
+                            "average_speed": "207.012 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2022-07-24",
+                            "lap_time": "1:37.491",
+                            "average_speed": "215.724 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2022-07-31",
+                            "lap_time": "1:22.126",
+                            "average_speed": "192.041 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2022-08-28",
+                            "lap_time": "1:49.354",
+                            "average_speed": "230.575 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2022-09-04",
+                            "lap_time": "1:13.652",
+                            "average_speed": "208.173 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2022-09-11",
+                            "lap_time": "1:24.745",
+                            "average_speed": "246.088 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2022-10-09",
+                            "lap_time": "1:44.911",
+                            "average_speed": "199.266 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2022-10-23",
+                            "lap_time": "1:39.541",
+                            "average_speed": "199.383 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2022-10-30",
+                            "lap_time": "1:22.046",
+                            "average_speed": "188.850 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2022-11-20",
+                            "lap_time": "1:29.392",
+                            "average_speed": "212.676 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2022-03-27",
+                            "lap_time": "1:31.772",
+                            "average_speed": "242.191 kph"
+                        },
+                        {
+                            "race": "Emilia Romagna Grand Prix",
+                            "track": "Autodromo Enzo e Dino Ferrari",
+                            "date": "2022-04-24",
+                            "lap_time": "1:18.446",
+                            "average_speed": "225.281 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2022-05-08",
+                            "lap_time": "1:31.361",
+                            "average_speed": "213.255 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2022-05-22",
+                            "lap_time": "1:25.456",
+                            "average_speed": "196.943 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2022-06-12",
+                            "lap_time": "1:46.050",
+                            "average_speed": "203.779 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2022-06-19",
+                            "lap_time": "1:15.839",
+                            "average_speed": "207.012 kph"
+                        },
+                        {
+                            "race": "French Grand Prix",
+                            "track": "Circuit Paul Ricard",
+                            "date": "2022-07-24",
+                            "lap_time": "1:37.491",
+                            "average_speed": "215.724 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2022-07-31",
+                            "lap_time": "1:22.126",
+                            "average_speed": "192.041 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2022-08-28",
+                            "lap_time": "1:49.354",
+                            "average_speed": "230.575 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2022-09-04",
+                            "lap_time": "1:13.652",
+                            "average_speed": "208.173 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2022-09-11",
+                            "lap_time": "1:24.745",
+                            "average_speed": "246.088 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2022-10-09",
+                            "lap_time": "1:44.911",
+                            "average_speed": "199.266 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2022-10-23",
+                            "lap_time": "1:39.541",
+                            "average_speed": "199.383 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2022-10-30",
+                            "lap_time": "1:22.046",
+                            "average_speed": "188.850 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2022-11-20",
+                            "lap_time": "1:29.392",
+                            "average_speed": "212.676 kph"
+                        }
+                    ]
+                },
+                "perez": {
+                    "wins": [
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2022-05-29",
+                            "lap_time": "1:16.028",
+                            "average_speed": "158.010 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2022-10-02",
+                            "lap_time": "1:48.165",
+                            "average_speed": "168.509 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2022-05-29",
+                            "lap_time": "1:16.028",
+                            "average_speed": "158.010 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2022-10-02",
+                            "lap_time": "1:48.165",
+                            "average_speed": "168.509 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2022-05-29",
+                            "lap_time": "1:16.028",
+                            "average_speed": "158.010 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2022-10-02",
+                            "lap_time": "1:48.165",
+                            "average_speed": "168.509 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2022-05-29",
+                            "lap_time": "1:16.028",
+                            "average_speed": "158.010 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2022-10-02",
+                            "lap_time": "1:48.165",
+                            "average_speed": "168.509 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2022-05-29",
+                            "lap_time": "1:16.028",
+                            "average_speed": "158.010 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2022-10-02",
+                            "lap_time": "1:48.165",
+                            "average_speed": "168.509 kph"
+                        }
+                    ]
+                },
+                "leclerc": {
+                    "wins": [
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2022-03-20",
+                            "lap_time": "1:34.570",
+                            "average_speed": "206.018 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2022-04-10",
+                            "lap_time": "1:20.260",
+                            "average_speed": "236.740 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2022-07-10",
+                            "lap_time": "1:07.583",
+                            "average_speed": "230.010 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2022-03-20",
+                            "lap_time": "1:34.570",
+                            "average_speed": "206.018 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2022-04-10",
+                            "lap_time": "1:20.260",
+                            "average_speed": "236.740 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2022-07-10",
+                            "lap_time": "1:07.583",
+                            "average_speed": "230.010 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2022-03-20",
+                            "lap_time": "1:34.570",
+                            "average_speed": "206.018 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2022-04-10",
+                            "lap_time": "1:20.260",
+                            "average_speed": "236.740 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2022-07-10",
+                            "lap_time": "1:07.583",
+                            "average_speed": "230.010 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2022-03-20",
+                            "lap_time": "1:34.570",
+                            "average_speed": "206.018 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2022-04-10",
+                            "lap_time": "1:20.260",
+                            "average_speed": "236.740 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2022-07-10",
+                            "lap_time": "1:07.583",
+                            "average_speed": "230.010 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2022-03-20",
+                            "lap_time": "1:34.570",
+                            "average_speed": "206.018 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2022-04-10",
+                            "lap_time": "1:20.260",
+                            "average_speed": "236.740 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2022-07-10",
+                            "lap_time": "1:07.583",
+                            "average_speed": "230.010 kph"
+                        }
+                    ]
+                },
+                "sainz": {
+                    "wins": [
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2022-07-03",
+                            "lap_time": "1:30.813",
+                            "average_speed": "233.530 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2022-07-03",
+                            "lap_time": "1:30.813",
+                            "average_speed": "233.530 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2022-07-03",
+                            "lap_time": "1:30.813",
+                            "average_speed": "233.530 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2022-07-03",
+                            "lap_time": "1:30.813",
+                            "average_speed": "233.530 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2022-07-03",
+                            "lap_time": "1:30.813",
+                            "average_speed": "233.530 kph"
+                        }
+                    ]
+                },
+                "russell": {
+                    "wins": [
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2022-11-13",
+                            "lap_time": "1:13.785",
+                            "average_speed": "210.237 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2022-11-13",
+                            "lap_time": "1:13.785",
+                            "average_speed": "210.237 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2022-11-13",
+                            "lap_time": "1:13.785",
+                            "average_speed": "210.237 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2022-11-13",
+                            "lap_time": "1:13.785",
+                            "average_speed": "210.237 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2022-11-13",
+                            "lap_time": "1:13.785",
+                            "average_speed": "210.237 kph"
+                        }
+                    ]
+                }
+            }
+        },
+        "2023": {
+            "drivers": {
+                "max_verstappen": {
+                    "wins": [
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        },
+                        {
+                            "race": "Bahrain Grand Prix",
+                            "track": "Bahrain International Circuit",
+                            "date": "2023-03-05",
+                            "lap_time": "1:36.236",
+                            "average_speed": "202.452 kph"
+                        },
+                        {
+                            "race": "Australian Grand Prix",
+                            "track": "Albert Park Grand Prix Circuit",
+                            "date": "2023-04-02",
+                            "lap_time": "1:20.342",
+                            "average_speed": "236.498 kph"
+                        },
+                        {
+                            "race": "Miami Grand Prix",
+                            "track": "Miami International Autodrome",
+                            "date": "2023-05-07",
+                            "lap_time": "1:29.708",
+                            "average_speed": "217.184 kph"
+                        },
+                        {
+                            "race": "Monaco Grand Prix",
+                            "track": "Circuit de Monaco",
+                            "date": "2023-05-28",
+                            "lap_time": "1:16.604",
+                            "average_speed": "156.822 kph"
+                        },
+                        {
+                            "race": "Spanish Grand Prix",
+                            "track": "Circuit de Barcelona-Catalunya",
+                            "date": "2023-06-04",
+                            "lap_time": "1:16.330",
+                            "average_speed": "219.641 kph"
+                        },
+                        {
+                            "race": "Canadian Grand Prix",
+                            "track": "Circuit Gilles Villeneuve",
+                            "date": "2023-06-18",
+                            "lap_time": "1:15.594",
+                            "average_speed": "207.683 kph"
+                        },
+                        {
+                            "race": "Austrian Grand Prix",
+                            "track": "Red Bull Ring",
+                            "date": "2023-07-02",
+                            "lap_time": "1:07.012",
+                            "average_speed": "231.970 kph"
+                        },
+                        {
+                            "race": "British Grand Prix",
+                            "track": "Silverstone Circuit",
+                            "date": "2023-07-09",
+                            "lap_time": "1:30.275",
+                            "average_speed": "234.922 kph"
+                        },
+                        {
+                            "race": "Hungarian Grand Prix",
+                            "track": "Hungaroring",
+                            "date": "2023-07-23",
+                            "lap_time": "1:20.504",
+                            "average_speed": "195.910 kph"
+                        },
+                        {
+                            "race": "Belgian Grand Prix",
+                            "track": "Circuit de Spa-Francorchamps",
+                            "date": "2023-07-30",
+                            "lap_time": "1:48.922",
+                            "average_speed": "231.490 kph"
+                        },
+                        {
+                            "race": "Dutch Grand Prix",
+                            "track": "Circuit Park Zandvoort",
+                            "date": "2023-08-27",
+                            "lap_time": "1:13.889",
+                            "average_speed": "207.505 kph"
+                        },
+                        {
+                            "race": "Italian Grand Prix",
+                            "track": "Autodromo Nazionale di Monza",
+                            "date": "2023-09-03",
+                            "lap_time": "1:25.240",
+                            "average_speed": "244.659 kph"
+                        },
+                        {
+                            "race": "Japanese Grand Prix",
+                            "track": "Suzuka Circuit",
+                            "date": "2023-09-24",
+                            "lap_time": "1:34.183",
+                            "average_speed": "221.963 kph"
+                        },
+                        {
+                            "race": "Qatar Grand Prix",
+                            "track": "Losail International Circuit",
+                            "date": "2023-10-08",
+                            "lap_time": "1:24.319",
+                            "average_speed": "231.364 kph"
+                        },
+                        {
+                            "race": "United States Grand Prix",
+                            "track": "Circuit of the Americas",
+                            "date": "2023-10-22",
+                            "lap_time": "1:40.028",
+                            "average_speed": "198.412 kph"
+                        },
+                        {
+                            "race": "Mexico City Grand Prix",
+                            "track": "Autódromo Hermanos Rodríguez",
+                            "date": "2023-10-29",
+                            "lap_time": "1:21.644",
+                            "average_speed": "189.780 kph"
+                        },
+                        {
+                            "race": "São Paulo Grand Prix",
+                            "track": "Autódromo José Carlos Pace",
+                            "date": "2023-11-05",
+                            "lap_time": "1:13.422",
+                            "average_speed": "211.277 kph"
+                        },
+                        {
+                            "race": "Las Vegas Grand Prix",
+                            "track": "Las Vegas Strip Street Circuit",
+                            "date": "2023-11-19",
+                            "lap_time": "1:35.614",
+                            "average_speed": "233.476 kph"
+                        },
+                        {
+                            "race": "Abu Dhabi Grand Prix",
+                            "track": "Yas Marina Circuit",
+                            "date": "2023-11-26",
+                            "lap_time": "1:26.993",
+                            "average_speed": "218.541 kph"
+                        }
+                    ]
+                },
+                "perez": {
+                    "wins": [
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        },
+                        {
+                            "race": "Saudi Arabian Grand Prix",
+                            "track": "Jeddah Corniche Circuit",
+                            "date": "2023-03-19",
+                            "lap_time": "1:32.188",
+                            "average_speed": "241.098 kph"
+                        },
+                        {
+                            "race": "Azerbaijan Grand Prix",
+                            "track": "Baku City Circuit",
+                            "date": "2023-04-30",
+                            "lap_time": "1:44.589",
+                            "average_speed": "206.625 kph"
+                        }
+                    ]
+                },
+                "sainz": {
+                    "wins": [
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        },
+                        {
+                            "race": "Singapore Grand Prix",
+                            "track": "Marina Bay Street Circuit",
+                            "date": "2023-09-17",
+                            "lap_time": "1:37.666",
+                            "average_speed": "182.089 kph"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
