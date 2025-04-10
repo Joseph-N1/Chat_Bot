@@ -104,3 +104,21 @@ These metrics help you understand how well the model is performing on unseen dat
 Output:
 
 The script prints out the shapes of the training and test sets as well as the performance metrics.
+
+#### Adding New Features
+
+Feature Set MAE MSE R² Notes
+Baseline (q1, q2, q3) 2.15 6.95 0.13 Only raw qualifying times.
+Baseline + Total Qualifying Time 2.09 6.68 0.16 total_q_time = q1 + q2 + q3.
+Baseline + Total Qualifying Time + Improvement Metrics 2.03 6.17 0.23 Added q1_q2_diff, q2_q3_diff, and q1_q3_diff.
+Baseline + Total Qualifying Time + Improvement + Variability 2.06 6.19 0.22 Added variability feature (q_std).
+Raw Q1, Q2, Q3 + Derived Stats + History 1.92 5.34 0.33
+
+🚀 Feature Engineering Progress
+
+#### Feature Name Description MAE MSE R² Score Notes
+
+1 total_q_time Sum of Q1, Q2, Q3 qualifying times 2.08 6.26 0.22 Baseline derived stat
+2 q1_q2_diff, q2_q3_diff, q1_q3_diff Improvements between sessions 2.03 6.17 0.23 Captures session-on-session gains
+3 q_std_dev Standard deviation of Q1, Q2, Q3 times (variability metric) 2.06 6.19 0.22 Slight decline; not strongly helpful
+4 avg_driver_q_time Historical average qualifying time for the driver 1.92 5.34 0.33 Most impactful feature so far

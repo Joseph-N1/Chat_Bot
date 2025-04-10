@@ -412,182 +412,202 @@
         "section": "championship_standings"
       },
       {
-        "pos": 1,
-        "pts": 25,
-        "wins": 1,
+        "pos": "1",
+        "pts": "25",
+        "wins": "1",
         "driver_name": "Max Verstappen",
         "driver_nationality": "Dutch",
+        "driver_age": "26",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 2,
-        "pts": 18,
-        "wins": 0,
+        "pos": "2",
+        "pts": "18",
+        "wins": "0",
         "driver_name": "Sergio Pérez",
         "driver_nationality": "Mexican",
+        "driver_age": "34",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 3,
-        "pts": 15,
-        "wins": 0,
+        "pos": "3",
+        "pts": "15",
+        "wins": "0",
         "driver_name": "Fernando Alonso",
         "driver_nationality": "Spanish",
+        "driver_age": "42",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 4,
-        "pts": 12,
-        "wins": 0,
+        "pos": "4",
+        "pts": "12",
+        "wins": "0",
         "driver_name": "Carlos Sainz",
         "driver_nationality": "Spanish",
+        "driver_age": "29",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 5,
-        "pts": 10,
-        "wins": 0,
+        "pos": "5",
+        "pts": "10",
+        "wins": "0",
         "driver_name": "Lewis Hamilton",
         "driver_nationality": "British",
+        "driver_age": "39",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 6,
-        "pts": 8,
-        "wins": 0,
+        "pos": "6",
+        "pts": "8",
+        "wins": "0",
         "driver_name": "Lance Stroll",
         "driver_nationality": "Canadian",
+        "driver_age": "25",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 7,
-        "pts": 6,
-        "wins": 0,
+        "pos": "7",
+        "pts": "6",
+        "wins": "0",
         "driver_name": "George Russell",
         "driver_nationality": "British",
+        "driver_age": "26",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 8,
-        "pts": 4,
-        "wins": 0,
+        "pos": "8",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Valtteri Bottas",
         "driver_nationality": "Finnish",
+        "driver_age": "34",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 9,
-        "pts": 2,
-        "wins": 0,
+        "pos": "9",
+        "pts": "2",
+        "wins": "0",
         "driver_name": "Pierre Gasly",
         "driver_nationality": "French",
+        "driver_age": "28",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 10,
-        "pts": 1,
-        "wins": 0,
+        "pos": "10",
+        "pts": "1",
+        "wins": "0",
         "driver_name": "Alexander Albon",
         "driver_nationality": "Thai",
+        "driver_age": "28",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 11,
-        "pts": 0,
-        "wins": 0,
+        "pos": "11",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Yuki Tsunoda",
         "driver_nationality": "Japanese",
+        "driver_age": "24",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 12,
-        "pts": 0,
-        "wins": 0,
+        "pos": "12",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Logan Sargeant",
         "driver_nationality": "American",
+        "driver_age": "23",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 13,
-        "pts": 0,
-        "wins": 0,
+        "pos": "13",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Kevin Magnussen",
         "driver_nationality": "Danish",
+        "driver_age": "31",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 14,
-        "pts": 0,
-        "wins": 0,
+        "pos": "14",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nyck de Vries",
         "driver_nationality": "Dutch",
+        "driver_age": "29",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 15,
-        "pts": 0,
-        "wins": 0,
+        "pos": "15",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nico Hülkenberg",
         "driver_nationality": "German",
+        "driver_age": "36",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 16,
-        "pts": 0,
-        "wins": 0,
+        "pos": "16",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Zhou Guanyu",
         "driver_nationality": "Chinese",
+        "driver_age": "25",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 17,
-        "pts": 0,
-        "wins": 0,
+        "pos": "17",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Lando Norris",
         "driver_nationality": "British",
+        "driver_age": "24",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 18,
-        "pts": 0,
-        "wins": 0,
+        "pos": "18",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Esteban Ocon",
         "driver_nationality": "French",
+        "driver_age": "27",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 19,
-        "pts": 0,
-        "wins": 0,
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Charles Leclerc",
         "driver_nationality": "Monegasque",
+        "driver_age": "26",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 20,
-        "pts": 0,
-        "wins": 0,
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Oscar Piastri",
         "driver_nationality": "Australian",
+        "driver_age": "23",
         "team_name": "McLaren",
         "team_nationality": "British"
       }
@@ -1006,182 +1026,202 @@
         "section": "championship_standings"
       },
       {
-        "pos": 1,
-        "pts": 44,
-        "wins": 1,
+        "pos": "1",
+        "pts": "44",
+        "wins": "1",
         "driver_name": "Max Verstappen",
         "driver_nationality": "Dutch",
+        "driver_age": "26",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 2,
-        "pts": 43,
-        "wins": 1,
+        "pos": "2",
+        "pts": "43",
+        "wins": "1",
         "driver_name": "Sergio Pérez",
         "driver_nationality": "Mexican",
+        "driver_age": "34",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 3,
-        "pts": 30,
-        "wins": 0,
+        "pos": "3",
+        "pts": "30",
+        "wins": "0",
         "driver_name": "Fernando Alonso",
         "driver_nationality": "Spanish",
+        "driver_age": "42",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 4,
-        "pts": 20,
-        "wins": 0,
+        "pos": "4",
+        "pts": "20",
+        "wins": "0",
         "driver_name": "Carlos Sainz",
         "driver_nationality": "Spanish",
+        "driver_age": "29",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 5,
-        "pts": 20,
-        "wins": 0,
+        "pos": "5",
+        "pts": "20",
+        "wins": "0",
         "driver_name": "Lewis Hamilton",
         "driver_nationality": "British",
+        "driver_age": "39",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 6,
-        "pts": 18,
-        "wins": 0,
+        "pos": "6",
+        "pts": "18",
+        "wins": "0",
         "driver_name": "George Russell",
         "driver_nationality": "British",
+        "driver_age": "26",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 7,
-        "pts": 8,
-        "wins": 0,
+        "pos": "7",
+        "pts": "8",
+        "wins": "0",
         "driver_name": "Lance Stroll",
         "driver_nationality": "Canadian",
+        "driver_age": "25",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 8,
-        "pts": 6,
-        "wins": 0,
+        "pos": "8",
+        "pts": "6",
+        "wins": "0",
         "driver_name": "Charles Leclerc",
         "driver_nationality": "Monegasque",
+        "driver_age": "26",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 9,
-        "pts": 4,
-        "wins": 0,
+        "pos": "9",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Valtteri Bottas",
         "driver_nationality": "Finnish",
+        "driver_age": "34",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 10,
-        "pts": 4,
-        "wins": 0,
+        "pos": "10",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Esteban Ocon",
         "driver_nationality": "French",
+        "driver_age": "27",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 11,
-        "pts": 4,
-        "wins": 0,
+        "pos": "11",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Pierre Gasly",
         "driver_nationality": "French",
+        "driver_age": "28",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 12,
-        "pts": 1,
-        "wins": 0,
+        "pos": "12",
+        "pts": "1",
+        "wins": "0",
         "driver_name": "Kevin Magnussen",
         "driver_nationality": "Danish",
+        "driver_age": "31",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 13,
-        "pts": 1,
-        "wins": 0,
-        "driver_name": "Alexander Albon",
+        "pos": "13",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alejandro Albon",
         "driver_nationality": "Thai",
+        "driver_age": "28",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 14,
-        "pts": 0,
-        "wins": 0,
+        "pos": "14",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Yuki Tsunoda",
         "driver_nationality": "Japanese",
+        "driver_age": "24",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 15,
-        "pts": 0,
-        "wins": 0,
+        "pos": "15",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nico Hülkenberg",
         "driver_nationality": "German",
+        "driver_age": "36",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 16,
-        "pts": 0,
-        "wins": 0,
+        "pos": "16",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Logan Sargeant",
         "driver_nationality": "American",
+        "driver_age": "23",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 17,
-        "pts": 0,
-        "wins": 0,
+        "pos": "17",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Zhou Guanyu",
         "driver_nationality": "Chinese",
+        "driver_age": "25",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 18,
-        "pts": 0,
-        "wins": 0,
+        "pos": "18",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nyck de Vries",
         "driver_nationality": "Dutch",
+        "driver_age": "29",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 19,
-        "pts": 0,
-        "wins": 0,
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Oscar Piastri",
         "driver_nationality": "Australian",
+        "driver_age": "23",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 20,
-        "pts": 0,
-        "wins": 0,
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Lando Norris",
         "driver_nationality": "British",
+        "driver_age": "24",
         "team_name": "McLaren",
         "team_nationality": "British"
       }
@@ -1600,182 +1640,202 @@
         "section": "championship_standings"
       },
       {
-        "pos": 1,
-        "pts": 69,
-        "wins": 2,
+        "pos": "1",
+        "pts": "69",
+        "wins": "2",
         "driver_name": "Max Verstappen",
         "driver_nationality": "Dutch",
+        "driver_age": "26",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 2,
-        "pts": 54,
-        "wins": 1,
+        "pos": "2",
+        "pts": "54",
+        "wins": "1",
         "driver_name": "Sergio Pérez",
         "driver_nationality": "Mexican",
+        "driver_age": "34",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 3,
-        "pts": 45,
-        "wins": 0,
+        "pos": "3",
+        "pts": "45",
+        "wins": "0",
         "driver_name": "Fernando Alonso",
         "driver_nationality": "Spanish",
+        "driver_age": "42",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 4,
-        "pts": 38,
-        "wins": 0,
+        "pos": "4",
+        "pts": "38",
+        "wins": "0",
         "driver_name": "Lewis Hamilton",
         "driver_nationality": "British",
+        "driver_age": "39",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 5,
-        "pts": 20,
-        "wins": 0,
+        "pos": "5",
+        "pts": "20",
+        "wins": "0",
         "driver_name": "Carlos Sainz",
         "driver_nationality": "Spanish",
+        "driver_age": "29",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 6,
-        "pts": 20,
-        "wins": 0,
+        "pos": "6",
+        "pts": "20",
+        "wins": "0",
         "driver_name": "Lance Stroll",
         "driver_nationality": "Canadian",
+        "driver_age": "25",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 7,
-        "pts": 18,
-        "wins": 0,
+        "pos": "7",
+        "pts": "18",
+        "wins": "0",
         "driver_name": "George Russell",
         "driver_nationality": "British",
+        "driver_age": "26",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 8,
-        "pts": 8,
-        "wins": 0,
+        "pos": "8",
+        "pts": "8",
+        "wins": "0",
         "driver_name": "Lando Norris",
         "driver_nationality": "British",
+        "driver_age": "24",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 9,
-        "pts": 6,
-        "wins": 0,
+        "pos": "9",
+        "pts": "6",
+        "wins": "0",
         "driver_name": "Nico Hülkenberg",
         "driver_nationality": "German",
+        "driver_age": "36",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 10,
-        "pts": 6,
-        "wins": 0,
+        "pos": "10",
+        "pts": "6",
+        "wins": "0",
         "driver_name": "Charles Leclerc",
         "driver_nationality": "Monegasque",
+        "driver_age": "26",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 11,
-        "pts": 4,
-        "wins": 0,
+        "pos": "11",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Valtteri Bottas",
         "driver_nationality": "Finnish",
+        "driver_age": "34",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 12,
-        "pts": 4,
-        "wins": 0,
+        "pos": "12",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Esteban Ocon",
         "driver_nationality": "French",
+        "driver_age": "27",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 13,
-        "pts": 4,
-        "wins": 0,
+        "pos": "13",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Oscar Piastri",
         "driver_nationality": "Australian",
+        "driver_age": "23",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 14,
-        "pts": 4,
-        "wins": 0,
+        "pos": "14",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Pierre Gasly",
         "driver_nationality": "French",
+        "driver_age": "28",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 15,
-        "pts": 2,
-        "wins": 0,
+        "pos": "15",
+        "pts": "2",
+        "wins": "0",
         "driver_name": "Guanyu Zhou",
         "driver_nationality": "Chinese",
+        "driver_age": "25",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 16,
-        "pts": 1,
-        "wins": 0,
+        "pos": "16",
+        "pts": "1",
+        "wins": "0",
         "driver_name": "Yuki Tsunoda",
         "driver_nationality": "Japanese",
+        "driver_age": "24",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 17,
-        "pts": 1,
-        "wins": 0,
+        "pos": "17",
+        "pts": "1",
+        "wins": "0",
         "driver_name": "Kevin Magnussen",
         "driver_nationality": "Danish",
+        "driver_age": "31",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 18,
-        "pts": 1,
-        "wins": 0,
-        "driver_name": "Alexander Albon",
+        "pos": "18",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alejandro Albon",
         "driver_nationality": "Thai",
+        "driver_age": "28",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 19,
-        "pts": 0,
-        "wins": 0,
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Logan Sargeant",
         "driver_nationality": "American",
+        "driver_age": "23",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 20,
-        "pts": 0,
-        "wins": 0,
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nyck de Vries",
         "driver_nationality": "Dutch",
+        "driver_age": "29",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       }
@@ -2194,182 +2254,202 @@
         "section": "championship_standings"
       },
       {
-        "pos": 1,
-        "pts": 93,
-        "wins": 2,
+        "pos": "1",
+        "pts": "93",
+        "wins": "2",
         "driver_name": "Max Verstappen",
         "driver_nationality": "Dutch",
+        "driver_age": "27",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 2,
-        "pts": 87,
-        "wins": 2,
+        "pos": "2",
+        "pts": "87",
+        "wins": "2",
         "driver_name": "Sergio Pérez",
         "driver_nationality": "Mexican",
+        "driver_age": "35",
         "team_name": "Red Bull",
         "team_nationality": "Austrian"
       },
       {
-        "pos": 3,
-        "pts": 60,
-        "wins": 0,
+        "pos": "3",
+        "pts": "60",
+        "wins": "0",
         "driver_name": "Fernando Alonso",
         "driver_nationality": "Spanish",
+        "driver_age": "43",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 4,
-        "pts": 48,
-        "wins": 0,
+        "pos": "4",
+        "pts": "48",
+        "wins": "0",
         "driver_name": "Lewis Hamilton",
         "driver_nationality": "British",
+        "driver_age": "39",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 5,
-        "pts": 34,
-        "wins": 0,
+        "pos": "5",
+        "pts": "34",
+        "wins": "0",
         "driver_name": "Carlos Sainz",
         "driver_nationality": "Spanish",
+        "driver_age": "30",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 6,
-        "pts": 28,
-        "wins": 0,
+        "pos": "6",
+        "pts": "28",
+        "wins": "0",
         "driver_name": "Charles Leclerc",
         "driver_nationality": "Monegasque",
+        "driver_age": "27",
         "team_name": "Ferrari",
         "team_nationality": "Italian"
       },
       {
-        "pos": 7,
-        "pts": 28,
-        "wins": 0,
+        "pos": "7",
+        "pts": "28",
+        "wins": "0",
         "driver_name": "George Russell",
         "driver_nationality": "British",
+        "driver_age": "26",
         "team_name": "Mercedes",
         "team_nationality": "German"
       },
       {
-        "pos": 8,
-        "pts": 27,
-        "wins": 0,
+        "pos": "8",
+        "pts": "27",
+        "wins": "0",
         "driver_name": "Lance Stroll",
         "driver_nationality": "Canadian",
+        "driver_age": "26",
         "team_name": "Aston Martin",
         "team_nationality": "British"
       },
       {
-        "pos": 9,
-        "pts": 10,
-        "wins": 0,
+        "pos": "9",
+        "pts": "10",
+        "wins": "0",
         "driver_name": "Lando Norris",
         "driver_nationality": "British",
+        "driver_age": "25",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 10,
-        "pts": 6,
-        "wins": 0,
+        "pos": "10",
+        "pts": "6",
+        "wins": "0",
         "driver_name": "Nico Hülkenberg",
         "driver_nationality": "German",
+        "driver_age": "37",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 11,
-        "pts": 4,
-        "wins": 0,
+        "pos": "11",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Oscar Piastri",
         "driver_nationality": "Australian",
+        "driver_age": "23",
         "team_name": "McLaren",
         "team_nationality": "British"
       },
       {
-        "pos": 12,
-        "pts": 4,
-        "wins": 0,
+        "pos": "12",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Valtteri Bottas",
         "driver_nationality": "Finnish",
+        "driver_age": "35",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 13,
-        "pts": 4,
-        "wins": 0,
+        "pos": "13",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Esteban Ocon",
         "driver_nationality": "French",
+        "driver_age": "28",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 14,
-        "pts": 4,
-        "wins": 0,
+        "pos": "14",
+        "pts": "4",
+        "wins": "0",
         "driver_name": "Pierre Gasly",
         "driver_nationality": "French",
+        "driver_age": "29",
         "team_name": "Alpine F1 Team",
         "team_nationality": "French"
       },
       {
-        "pos": 15,
-        "pts": 2,
-        "wins": 0,
+        "pos": "15",
+        "pts": "2",
+        "wins": "0",
         "driver_name": "Guanyu Zhou",
         "driver_nationality": "Chinese",
+        "driver_age": "25",
         "team_name": "Alfa Romeo",
         "team_nationality": "Swiss"
       },
       {
-        "pos": 16,
-        "pts": 2,
-        "wins": 0,
+        "pos": "16",
+        "pts": "2",
+        "wins": "0",
         "driver_name": "Yuki Tsunoda",
         "driver_nationality": "Japanese",
+        "driver_age": "24",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       },
       {
-        "pos": 17,
-        "pts": 1,
-        "wins": 0,
-        "driver_name": "Alexander Albon",
+        "pos": "17",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alejandro Albon",
         "driver_nationality": "Thai",
+        "driver_age": "29",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 18,
-        "pts": 1,
-        "wins": 0,
+        "pos": "18",
+        "pts": "1",
+        "wins": "0",
         "driver_name": "Kevin Magnussen",
         "driver_nationality": "Danish",
+        "driver_age": "32",
         "team_name": "Haas F1 Team",
         "team_nationality": "American"
       },
       {
-        "pos": 19,
-        "pts": 0,
-        "wins": 0,
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Logan Sargeant",
         "driver_nationality": "American",
+        "driver_age": "24",
         "team_name": "Williams",
         "team_nationality": "British"
       },
       {
-        "pos": 20,
-        "pts": 0,
-        "wins": 0,
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
         "driver_name": "Nyck de Vries",
         "driver_nationality": "Dutch",
+        "driver_age": "30",
         "team_name": "AlphaTauri",
         "team_nationality": "Italian"
       }
@@ -2788,64 +2868,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1    119   3    Max Verstappen / Dutch / 27          Red Bull / Austrian"
+        "pos": "1",
+        "pts": "119",
+        "wins": "3",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "27",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2    105   2    Sergio Pérez / Mexican / 35          Red Bull / Austrian"
+        "pos": "2",
+        "pts": "105",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "35",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3     75   0    Fernando Alonso / Spanish / 43       Aston Martin / British"
+        "pos": "3",
+        "pts": "75",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "43",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4     56   0    Lewis Hamilton / British / 39        Mercedes / German"
+        "pos": "4",
+        "pts": "56",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5     44   0    Carlos Sainz / Spanish / 30          Ferrari / Italian"
+        "pos": "5",
+        "pts": "44",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "30",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6     40   0    George Russell / British / 26        Mercedes / German"
+        "pos": "6",
+        "pts": "40",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "7     34   0    Charles Leclerc / Monegasque / 27    Ferrari / Italian"
+        "pos": "7",
+        "pts": "34",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "27",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8     27   0    Lance Stroll / Canadian / 26         Aston Martin / British"
+        "pos": "8",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "26",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9     10   0    Lando Norris / British / 25          McLaren / British"
+        "pos": "9",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "25",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10     8   0    Pierre Gasly / French / 29           Alpine / French"
+        "pos": "10",
+        "pts": "8",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "29",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "11     6   0    Nico Hülkenberg / German / 37        Haas / American"
+        "pos": "11",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "37",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "12     6   0    Esteban Ocon / French / 28           Alpine / French"
+        "pos": "12",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "13     4   0    Valtteri Bottas / Finnish / 35       Alfa Romeo / Swiss"
+        "pos": "13",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "14     4   0    Oscar Piastri / Australian / 23      McLaren / British"
+        "pos": "14",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "15     2   0    Guanyu Zhou / Chinese / 25           Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "25",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16     2   0    Yuki Tsunoda / Japanese / 24         AlphaTauri / Italian"
+        "pos": "16",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "24",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "17     2   0    Kevin Magnussen / Danish / 32        Haas / American"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "18     1   0    Alexander Albon / Thai / 29          Williams / British"
+        "pos": "18",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alejandro Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "29",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "19     0   0    Logan Sargeant / American / 24       Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20     0   0    Nyck de Vries / Dutch / 30           AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "30",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -3262,64 +3482,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1    144   4    Max Verstappen / Dutch / 27          Red Bull / Austrian"
+        "pos": "1",
+        "pts": "144",
+        "wins": "4",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "27",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2    105   2    Sergio Pérez / Mexican / 35          Red Bull / Austrian"
+        "pos": "2",
+        "pts": "105",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "35",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3     93   0    Fernando Alonso / Spanish / 43       Aston Martin / British"
+        "pos": "3",
+        "pts": "93",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "43",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4     69   0    Lewis Hamilton / British / 39        Mercedes / German"
+        "pos": "4",
+        "pts": "69",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5     50   0    George Russell / British / 26        Mercedes / German"
+        "pos": "5",
+        "pts": "50",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "6     48   0    Carlos Sainz / Spanish / 30          Ferrari / Italian"
+        "pos": "6",
+        "pts": "48",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "30",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7     42   0    Charles Leclerc / Monegasque / 27    Ferrari / Italian"
+        "pos": "7",
+        "pts": "42",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "27",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8     27   0    Lance Stroll / Canadian / 26         Aston Martin / British"
+        "pos": "8",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "26",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9     21   0    Esteban Ocon / French / 28           Alpine / French"
+        "pos": "9",
+        "pts": "21",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "10    14   0    Pierre Gasly / French / 29           Alpine / French"
+        "pos": "10",
+        "pts": "14",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "29",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "11    12   0    Lando Norris / British / 25          McLaren / British"
+        "pos": "11",
+        "pts": "12",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "25",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12     6   0    Nico Hülkenberg / German / 37        Haas / American"
+        "pos": "12",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "37",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "13     5   0    Oscar Piastri / Australian / 23      McLaren / British"
+        "pos": "13",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "14     4   0    Valtteri Bottas / Finnish / 35       Alfa Romeo / Swiss"
+        "pos": "14",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "15     2   0    Guanyu Zhou / Chinese / 25           Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "25",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16     2   0    Yuki Tsunoda / Japanese / 24         AlphaTauri / Italian"
+        "pos": "16",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "24",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "17     2   0    Kevin Magnussen / Danish / 32        Haas / American"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "18     1   0    Alexander Albon / Thai / 29          Williams / British"
+        "pos": "18",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alejandro Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "29",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "19     0   0    Nyck de Vries / Dutch / 30           AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "30",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20     0   0    Logan Sargeant / American / 24       Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       }
     ]
   },
@@ -3736,64 +4096,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   170  5   Max Verstappen / Dutch / 28           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "170",
+        "wins": "5",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "28",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   117  2   Sergio Pérez / Mexican / 35           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "117",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "35",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   99   0   Fernando Alonso / Spanish / 44        Aston Martin / British"
+        "pos": "3",
+        "pts": "99",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "44",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   87   0   Lewis Hamilton / British / 40         Mercedes / German"
+        "pos": "4",
+        "pts": "87",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "40",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   65   0   George Russell / British / 27         Mercedes / German"
+        "pos": "5",
+        "pts": "65",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "27",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "6   58   0   Carlos Sainz / Spanish / 31           Ferrari / Italian"
+        "pos": "6",
+        "pts": "58",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "31",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   42   0   Charles Leclerc / Monegasque / 28     Ferrari / Italian"
+        "pos": "7",
+        "pts": "42",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "28",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   35   0   Lance Stroll / Canadian / 27          Aston Martin / British"
+        "pos": "8",
+        "pts": "35",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "27",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   25   0   Esteban Ocon / French / 29            Alpine F1 Team / French"
+        "pos": "9",
+        "pts": "25",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "29",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "10  15   0   Pierre Gasly / French / 29            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "15",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "29",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  12   0   Lando Norris / British / 26           McLaren / British"
+        "pos": "11",
+        "pts": "12",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  6    0   Nico Hülkenberg / German / 38        Haas F1 Team / American"
+        "pos": "12",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "38",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "13  5    0   Oscar Piastri / Australian / 24       McLaren / British"
+        "pos": "13",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  4    0   Valtteri Bottas / Finnish / 36        Alfa Romeo / Swiss"
+        "pos": "14",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "36",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "15  4    0   Guanyu Zhou / Chinese / 26            Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "26",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  2    0   Yuki Tsunoda / Japanese / 25          AlphaTauri / Italian"
+        "pos": "16",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "25",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "17  2    0   Kevin Magnussen / Danish / 33         Haas F1 Team / American"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "33",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "18  1    0   Alexander Albon / Thai / 29           Williams / British"
+        "pos": "18",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "29",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "19  0    0   Nyck de Vries / Dutch / 30            AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "30",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20  0    0   Logan Sargeant / American / 25        Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "25",
+        "team_name": "Williams",
+        "team_nationality": "British"
       }
     ]
   },
@@ -4210,64 +4710,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   195  6   Max Verstappen / Dutch / 27           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "195",
+        "wins": "6",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "27",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   126  2   Sergio Pérez / Mexican / 35           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "126",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "35",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   117  0   Fernando Alonso / Spanish / 43        Aston Martin / British"
+        "pos": "3",
+        "pts": "117",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "43",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   102  0   Lewis Hamilton / British / 40         Mercedes / German"
+        "pos": "4",
+        "pts": "102",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "40",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   68   0   Carlos Sainz / Spanish / 30           Ferrari / Italian"
+        "pos": "5",
+        "pts": "68",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "30",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   65   0   George Russell / British / 27         Mercedes / German"
+        "pos": "6",
+        "pts": "65",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "27",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "7   54   0   Charles Leclerc / Monegasque / 27     Ferrari / Italian"
+        "pos": "7",
+        "pts": "54",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "27",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   37   0   Lance Stroll / Canadian / 26          Aston Martin / British"
+        "pos": "8",
+        "pts": "37",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "26",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   29   0   Esteban Ocon / French / 28            Alpine F1 Team / French"
+        "pos": "9",
+        "pts": "29",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "10  15   0   Pierre Gasly / French / 29            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "15",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "29",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  12   0   Lando Norris / British / 25           McLaren / British"
+        "pos": "11",
+        "pts": "12",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "25",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  7    0   Alexander Albon / Thai / 29           Williams / British"
+        "pos": "12",
+        "pts": "7",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "29",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "13  6    0   Nico Hülkenberg / German / 37        Haas F1 Team / American"
+        "pos": "13",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "37",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "14  5    0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "14",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 35        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 25            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "25",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  2    0   Yuki Tsunoda / Japanese / 24          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "24",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 32         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       }
     ]
   },
@@ -4684,64 +5324,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   229  7   Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "229",
+        "wins": "7",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   148  2   Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "148",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   131  0   Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "131",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   106  0   Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "106",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   82   0   Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "82",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   72   0   Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "6",
+        "pts": "72",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   72   0   George Russell / British / 26         Mercedes / German"
+        "pos": "7",
+        "pts": "72",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "8   44   0   Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "8",
+        "pts": "44",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   31   0   Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "9",
+        "pts": "31",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "10  24   0   Lando Norris / British / 25           McLaren / British"
+        "pos": "10",
+        "pts": "24",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "25",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "11  16   0   Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "16",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  9    0   Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "12",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "13  7    0   Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "7",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  5    0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "14",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  2    0   Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -5158,64 +5938,204 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   255  8   Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "255",
+        "wins": "8",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   156  2   Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "156",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   137  0   Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "137",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   121  0   Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "121",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   83   0   Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "83",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   82   0   George Russell / British / 26         Mercedes / German"
+        "pos": "6",
+        "pts": "82",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "7   74   0   Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "7",
+        "pts": "74",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   44   0   Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "8",
+        "pts": "44",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   42   0   Lando Norris / British / 24           McLaren / British"
+        "pos": "9",
+        "pts": "42",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  31   0   Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "31",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  17   0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "11",
+        "pts": "17",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  16   0   Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "16",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  11   0   Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "11",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0   Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  2    0   Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -5632,67 +6552,214 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   281  9   Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "281",
+        "wins": "9",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   171  2   Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "171",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   139  0   Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "139",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   133  0   Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "133",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   90   0   George Russell / British / 26         Mercedes / German"
+        "pos": "5",
+        "pts": "90",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "6   87   0   Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "6",
+        "pts": "87",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   80   0   Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "7",
+        "pts": "80",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   60   0   Lando Norris / British / 24           McLaren / British"
+        "pos": "8",
+        "pts": "60",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   45   0   Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "9",
+        "pts": "45",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  31   0   Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "31",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  27   0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "11",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  16   0   Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "16",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  11   0   Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "11",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0   Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  2    0   Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21  0    0   Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -6109,67 +7176,214 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   314  10  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "314",
+        "wins": "10",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   189  2   Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "189",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   149  0   Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "149",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   148  0   Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "148",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   99   0   Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "5",
+        "pts": "99",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   99   0   George Russell / British / 26         Mercedes / German"
+        "pos": "6",
+        "pts": "99",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "7   92   0   Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "7",
+        "pts": "92",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   69   0   Lando Norris / British / 24           McLaren / British"
+        "pos": "8",
+        "pts": "69",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   47   0   Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "9",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  35   0   Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "35",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  34   0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "11",
+        "pts": "34",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  22   0   Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "22",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  11   0   Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "11",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0   Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  3    0   Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21  0    0   Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -6586,70 +7800,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   339  11  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "339",
+        "wins": "11",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   201  2   Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "201",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   168  0   Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "168",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   156  0   Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "156",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   102  0   Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "102",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   99   0   Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "6",
+        "pts": "99",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   99   0   George Russell / British / 26         Mercedes / German"
+        "pos": "7",
+        "pts": "99",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "8   75   0   Lando Norris / British / 24           McLaren / British"
+        "pos": "8",
+        "pts": "75",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   47   0   Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "9",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  37   0   Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "37",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  36   0   Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "36",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  36   0   Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "12",
+        "pts": "36",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "13  15   0   Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "15",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0   Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  5    0   Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "5",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0   Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  3    0   Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0   Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0   Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0   Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21  0    0   Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22  0    0   Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -7066,70 +8434,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   364 12  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "364",
+        "wins": "12",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   219  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "219",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   170  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "3",
+        "pts": "170",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "4   164  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "4",
+        "pts": "164",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "5   117  0  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "117",
+        "wins": "0",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   111  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "6",
+        "pts": "111",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   109  0  George Russell / British / 26         Mercedes / German"
+        "pos": "7",
+        "pts": "109",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "8   79   0  Lando Norris / British / 24           McLaren / British"
+        "pos": "8",
+        "pts": "79",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "9   47   0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "9",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  37   0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "37",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  36   0  Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "36",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  36   0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "12",
+        "pts": "36",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "13  21   0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "21",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0  Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  6    0  Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  3    0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  2    0  Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  0    0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "19",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "20  0    0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21  0    0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22  0    0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -7546,70 +9068,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   374 12  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "374",
+        "wins": "12",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   223  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "223",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   180  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "180",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   170  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "4",
+        "pts": "170",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   142  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "142",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   123  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "6",
+        "pts": "123",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   109  0  George Russell / British / 26         Mercedes / German"
+        "pos": "7",
+        "pts": "109",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "8    97  0  Lando Norris / British / 25           McLaren / British"
+        "pos": "8",
+        "pts": "97",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "25",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "9    47  0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "9",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "10   45  0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "45",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11   42  0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "11",
+        "pts": "42",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "12   36  0  Esteban Ocon / French / 28            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "36",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13   21  0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "21",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14    9  0  Nico Hülkenberg / German / 36        Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15    6  0  Valtteri Bottas / Finnish / 35        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16    4  0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17    3  0  Yuki Tsunoda / Japanese / 24          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "24",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18    3  0  Kevin Magnussen / Danish / 32         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19    2  0  Liam Lawson / New Zealander / 23      AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20    0  0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "21    0  0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22    0  0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -8026,70 +9702,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   400 13  Max Verstappen / Dutch / 26            Red Bull / Austrian"
+        "pos": "1",
+        "pts": "400",
+        "wins": "13",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   223  2  Sergio Pérez / Mexican / 34            Red Bull / Austrian"
+        "pos": "2",
+        "pts": "223",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   190  0  Lewis Hamilton / British / 39          Mercedes / German"
+        "pos": "3",
+        "pts": "190",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   174  0  Fernando Alonso / Spanish / 42         Aston Martin / British"
+        "pos": "4",
+        "pts": "174",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   150  1  Carlos Sainz / Spanish / 29            Ferrari / Italian"
+        "pos": "5",
+        "pts": "150",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   135  0  Charles Leclerc / Monegasque / 26      Ferrari / Italian"
+        "pos": "6",
+        "pts": "135",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   115  0  Lando Norris / British / 24            McLaren / British"
+        "pos": "7",
+        "pts": "115",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "8   115  0  George Russell / British / 26          Mercedes / German"
+        "pos": "8",
+        "pts": "115",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9   57   0  Oscar Piastri / Australian / 23        McLaren / British"
+        "pos": "9",
+        "pts": "57",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  47   0  Lance Stroll / Canadian / 25           Aston Martin / British"
+        "pos": "10",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "11  46   0  Pierre Gasly / French / 28             Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "46",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  38   0  Esteban Ocon / French / 27             Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "38",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  21   0  Alexander Albon / Thai / 28            Williams / British"
+        "pos": "13",
+        "pts": "21",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  9    0  Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "14",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "15  6    0  Valtteri Bottas / Finnish / 35        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  4    0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "4",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17  3    0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  3    0  Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  2    0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20  0    0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "21  0    0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22  0    0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -8506,70 +10336,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   433 14  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "433",
+        "wins": "14",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   224  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "224",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   194  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "194",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   183  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "4",
+        "pts": "183",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   153  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "5",
+        "pts": "153",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   145  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "6",
+        "pts": "145",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   136  0  Lando Norris / British / 24           McLaren / British"
+        "pos": "7",
+        "pts": "136",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "8   132  0  George Russell / British / 26         Mercedes / German"
+        "pos": "8",
+        "pts": "132",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9   83   0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "9",
+        "pts": "83",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  47   0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "10",
+        "pts": "47",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "11  46   0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "46",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  44   0  Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "44",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  23   0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "23",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  10   0  Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "14",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "15   9   0  Nico Hülkenberg / German / 37         Haas F1 Team / American"
+        "pos": "15",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "37",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "16   6   0  Guanyu Zhou / Chinese / 25            Alfa Romeo / Swiss"
+        "pos": "16",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "25",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "17   3   0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18   3   0  Kevin Magnussen / Danish / 32         Haas F1 Team / American"
+        "pos": "18",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19   2   0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20   0   0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "20",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "21   0   0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22   0   0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -8986,70 +10970,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   466 15  Max Verstappen / Dutch / 26             Red Bull / Austrian"
+        "pos": "1",
+        "pts": "466",
+        "wins": "15",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   240  2  Sergio Pérez / Mexican / 34             Red Bull / Austrian"
+        "pos": "2",
+        "pts": "240",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   201  0  Lewis Hamilton / British / 39           Mercedes / German"
+        "pos": "3",
+        "pts": "201",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   183  0  Fernando Alonso / Spanish / 42          Aston Martin / British"
+        "pos": "4",
+        "pts": "183",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   171  1  Carlos Sainz / Spanish / 29             Ferrari / Italian"
+        "pos": "5",
+        "pts": "171",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   159  0  Lando Norris / British / 24             McLaren / British"
+        "pos": "6",
+        "pts": "159",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "7   151  0  Charles Leclerc / Monegasque / 26       Ferrari / Italian"
+        "pos": "7",
+        "pts": "151",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   143  0  George Russell / British / 26           Mercedes / German"
+        "pos": "8",
+        "pts": "143",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9   83   0  Oscar Piastri / Australian / 23         McLaren / British"
+        "pos": "9",
+        "pts": "83",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  56   0  Pierre Gasly / French / 28              Alpine F1 Team / French"
+        "pos": "10",
+        "pts": "56",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "11  53   0  Lance Stroll / Canadian / 25            Aston Martin / British"
+        "pos": "11",
+        "pts": "53",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "12  44   0  Esteban Ocon / French / 28              Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "44",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  25   0  Alexander Albon / Thai / 28             Williams / British"
+        "pos": "13",
+        "pts": "25",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  10   0  Valtteri Bottas / Finnish / 34          Alfa Romeo / Swiss"
+        "pos": "14",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "15  9    0  Nico Hülkenberg / German / 36          Haas F1 Team / American"
+        "pos": "15",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "16  8    0  Yuki Tsunoda / Japanese / 23           AlphaTauri / Italian"
+        "pos": "16",
+        "pts": "8",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "17  6    0  Guanyu Zhou / Chinese / 24             Alfa Romeo / Swiss"
+        "pos": "17",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "18  3    0  Kevin Magnussen / Danish / 32          Haas F1 Team / American"
+        "pos": "18",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "19  2    0  Liam Lawson / New Zealander / 22       AlphaTauri / Italian"
+        "pos": "19",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "20  1    0  Logan Sargeant / American / 24         Williams / British"
+        "pos": "20",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "21  0    0  Nyck de Vries / Dutch / 29             AlphaTauri / Italian"
+        "pos": "21",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "22  0    0  Daniel Ricciardo / Australian / 34     AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "34",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -9466,70 +11604,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   491 16  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "491",
+        "wins": "16",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   240  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "240",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   220  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "220",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   183  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "4",
+        "pts": "183",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "5   183  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "5",
+        "pts": "183",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "6   169  0  Lando Norris / British / 24           McLaren / British"
+        "pos": "6",
+        "pts": "169",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "7   166  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "7",
+        "pts": "166",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   151  0  George Russell / British / 26         Mercedes / German"
+        "pos": "8",
+        "pts": "151",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9    87  0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "9",
+        "pts": "87",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10   56  0  Pierre Gasly / French / 28            Alpine / French"
+        "pos": "10",
+        "pts": "56",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "11   53  0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "11",
+        "pts": "53",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "12   45  0  Esteban Ocon / French / 27            Alpine / French"
+        "pos": "12",
+        "pts": "45",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine",
+        "team_nationality": "French"
       },
       {
-        "pos": "13   27  0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14   10  0  Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "14",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "15    9  0  Nico Hülkenberg / German / 37         Haas / American"
+        "pos": "15",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "37",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "16    8  0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "16",
+        "pts": "8",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "17    6  0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18    6  0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "18",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "19    3  0  Kevin Magnussen / Danish / 32         Haas / American"
+        "pos": "19",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas",
+        "team_nationality": "American"
       },
       {
-        "pos": "20    2  0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21    1  0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "21",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "22    0  0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -9946,70 +12238,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   524 17  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "524",
+        "wins": "17",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   258  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "258",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   226  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "226",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   198  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "4",
+        "pts": "198",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   195  0  Lando Norris / British / 24           McLaren / British"
+        "pos": "5",
+        "pts": "195",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "6   192  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "6",
+        "pts": "192",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   170  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "7",
+        "pts": "170",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   156  0  George Russell / British / 26         Mercedes / German"
+        "pos": "8",
+        "pts": "156",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9    87  0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "9",
+        "pts": "87",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10   63  0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "10",
+        "pts": "63",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "11   62  0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "62",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12   46  0  Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "46",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13   27  0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14   13  0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "14",
+        "pts": "13",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "15   10  0  Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16    9  0  Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "16",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "17    6  0  Daniel Ricciardo / Australian / 34    AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "34",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18    6  0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "18",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "19    3  0  Kevin Magnussen / Danish / 31         Haas F1 Team / American"
+        "pos": "19",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "31",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "20    2  0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21    1  0  Logan Sargeant / American / 23        Williams / British"
+        "pos": "21",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "23",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "22    0  0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -10017,73 +12463,633 @@
     "race_name": "Las Vegas Grand Prix",
     "data": [
       {
+        "section": "qualifying_results"
+      },
+      {
+        "position": "1",
+        "driver": "Charles Leclerc",
+        "constructor": "Ferrari",
+        "q1": "1:33.617",
+        "q2": "1:32.775",
+        "q3": "1:32.726"
+      },
+      {
+        "position": "2",
+        "driver": "Carlos Sainz",
+        "constructor": "Ferrari",
+        "q1": "1:33.851",
+        "q2": "1:33.338",
+        "q3": "1:32.770"
+      },
+      {
+        "position": "3",
+        "driver": "Max Verstappen",
+        "constructor": "Red Bull",
+        "q1": "1:34.190",
+        "q2": "1:33.572",
+        "q3": "1:33.104"
+      },
+      {
+        "position": "4",
+        "driver": "George Russell",
+        "constructor": "Mercedes",
+        "q1": "1:34.137",
+        "q2": "1:33.351",
+        "q3": "1:33.112"
+      },
+      {
+        "position": "5",
+        "driver": "Pierre Gasly",
+        "constructor": "Alpine F1 Team",
+        "q1": "1:34.272",
+        "q2": "1:33.494",
+        "q3": "1:33.239"
+      },
+      {
+        "position": "6",
+        "driver": "Alexander Albon",
+        "constructor": "Williams",
+        "q1": "1:34.634",
+        "q2": "1:33.588",
+        "q3": "1:33.323"
+      },
+      {
+        "position": "7",
+        "driver": "Logan Sargeant",
+        "constructor": "Williams",
+        "q1": "1:34.525",
+        "q2": "1:33.733",
+        "q3": "1:33.513"
+      },
+      {
+        "position": "8",
+        "driver": "Valtteri Bottas",
+        "constructor": "Alfa Romeo",
+        "q1": "1:34.305",
+        "q2": "1:33.809",
+        "q3": "1:33.525"
+      },
+      {
+        "position": "9",
+        "driver": "Kevin Magnussen",
+        "constructor": "Haas F1 Team",
+        "q1": "1:34.337",
+        "q2": "1:33.664",
+        "q3": "1:33.537"
+      },
+      {
+        "position": "10",
+        "driver": "Fernando Alonso",
+        "constructor": "Aston Martin",
+        "q1": "1:34.422",
+        "q2": "1:33.617",
+        "q3": "1:33.555"
+      },
+      {
+        "position": "11",
+        "driver": "Lewis Hamilton",
+        "constructor": "Mercedes",
+        "q1": "1:34.307",
+        "q2": "1:33.837",
+        "q3": ""
+      },
+      {
+        "position": "12",
+        "driver": "Sergio Pérez",
+        "constructor": "Red Bull",
+        "q1": "1:34.574",
+        "q2": "1:33.855",
+        "q3": ""
+      },
+      {
+        "position": "13",
+        "driver": "Nico Hülkenberg",
+        "constructor": "Haas F1 Team",
+        "q1": "1:34.265",
+        "q2": "1:33.979",
+        "q3": ""
+      },
+      {
+        "position": "14",
+        "driver": "Lance Stroll",
+        "constructor": "Aston Martin",
+        "q1": "1:34.504",
+        "q2": "1:34.199",
+        "q3": ""
+      },
+      {
+        "position": "15",
+        "driver": "Daniel Ricciardo",
+        "constructor": "AlphaTauri",
+        "q1": "1:34.683",
+        "q2": "1:34.308",
+        "q3": ""
+      },
+      {
+        "position": "16",
+        "driver": "Lando Norris",
+        "constructor": "McLaren",
+        "q1": "1:34.703",
+        "q2": "",
+        "q3": ""
+      },
+      {
+        "position": "17",
+        "driver": "Esteban Ocon",
+        "constructor": "Alpine F1 Team",
+        "q1": "1:34.834",
+        "q2": "",
+        "q3": ""
+      },
+      {
+        "position": "18",
+        "driver": "Guanyu Zhou",
+        "constructor": "Alfa Romeo",
+        "q1": "1:34.849",
+        "q2": "",
+        "q3": ""
+      },
+      {
+        "position": "19",
+        "driver": "Oscar Piastri",
+        "constructor": "McLaren",
+        "q1": "1:34.850",
+        "q2": "",
+        "q3": ""
+      },
+      {
+        "position": "20",
+        "driver": "Yuki Tsunoda",
+        "constructor": "AlphaTauri",
+        "q1": "1:36.447",
+        "q2": "",
+        "q3": ""
+      },
+      {
+        "section": "race_results"
+      },
+      {
+        "driver": "Verstappen",
+        "team": "Red Bull",
+        "starting position": 2,
+        "finish position": 1,
+        "ergast laps": 50,
+        "points": 25,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Leclerc",
+        "team": "Ferrari",
+        "starting position": 1,
+        "finish position": 2,
+        "ergast laps": 50,
+        "points": 18,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Pérez",
+        "team": "Red Bull",
+        "starting position": 11,
+        "finish position": 3,
+        "ergast laps": 50,
+        "points": 15,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Ocon",
+        "team": "Alpine F1 Team",
+        "starting position": 16,
+        "finish position": 4,
+        "ergast laps": 50,
+        "points": 12,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Stroll",
+        "team": "Aston Martin",
+        "starting position": 19,
+        "finish position": 5,
+        "ergast laps": 50,
+        "points": 10,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "SOFT, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Sainz",
+        "team": "Ferrari",
+        "starting position": 12,
+        "finish position": 6,
+        "ergast laps": 50,
+        "points": 8,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Hamilton",
+        "team": "Mercedes",
+        "starting position": 10,
+        "finish position": 7,
+        "ergast laps": 50,
+        "points": 6,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "HARD, MEDIUM",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Russell",
+        "team": "Mercedes",
+        "starting position": 3,
+        "finish position": 8,
+        "ergast laps": 50,
+        "points": 4,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Alonso",
+        "team": "Aston Martin",
+        "starting position": 9,
+        "finish position": 9,
+        "ergast laps": 50,
+        "points": 2,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Piastri",
+        "team": "McLaren",
+        "starting position": 18,
+        "finish position": 10,
+        "ergast laps": 50,
+        "points": 2,
+        "fastest lap time": "1:35.490",
+        "dnf": "No",
+        "tire compounds": "HARD, MEDIUM",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Gasly",
+        "team": "Alpine F1 Team",
+        "starting position": 4,
+        "finish position": 11,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Albon",
+        "team": "Williams",
+        "starting position": 5,
+        "finish position": 12,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Magnussen",
+        "team": "Haas F1 Team",
+        "starting position": 8,
+        "finish position": 13,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Ricciardo",
+        "team": "AlphaTauri",
+        "starting position": 14,
+        "finish position": 14,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "HARD, MEDIUM",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Zhou",
+        "team": "Alfa Romeo",
+        "starting position": 17,
+        "finish position": 15,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "SOFT, MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Sargeant",
+        "team": "Williams",
+        "starting position": 6,
+        "finish position": 16,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Bottas",
+        "team": "Alfa Romeo",
+        "starting position": 7,
+        "finish position": 17,
+        "ergast laps": 50,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "No",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Tsunoda",
+        "team": "AlphaTauri",
+        "starting position": 20,
+        "finish position": 18,
+        "ergast laps": 46,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "Yes",
+        "tire compounds": "MEDIUM",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Hülkenberg",
+        "team": "Haas F1 Team",
+        "starting position": 13,
+        "finish position": 19,
+        "ergast laps": 45,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "Yes",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
+        "driver": "Norris",
+        "team": "McLaren",
+        "starting position": 15,
+        "finish position": 20,
+        "ergast laps": 2,
+        "points": 0,
+        "fastest lap time": "",
+        "dnf": "Yes",
+        "tire compounds": "MEDIUM, HARD",
+        "rain during race": "No"
+      },
+      {
         "section": "championship_standings"
       },
       {
-        "pos": "1   533 17  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "533",
+        "wins": "17",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   272  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "272",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   230  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "230",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   202  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "4",
+        "pts": "202",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   200  0  Lando Norris / British / 24           McLaren / British"
+        "pos": "5",
+        "pts": "200",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "6   196  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "6",
+        "pts": "196",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "7   188  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "7",
+        "pts": "188",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   166  0  George Russell / British / 26         Mercedes / German"
+        "pos": "8",
+        "pts": "166",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9    92  0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "9",
+        "pts": "92",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10   69  0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "10",
+        "pts": "69",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "11   62  0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "62",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12   52  0  Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "52",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13   27  0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14   15  0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "14",
+        "pts": "15",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "15   10  0  Valtteri Bottas / Finnish / 34        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "34",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16    9  0  Nico Hülkenberg / German / 36         Haas F1 Team / American"
+        "pos": "16",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "17    6  0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18    6  0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "18",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "19    3  0  Kevin Magnussen / Danish / 32         Haas F1 Team / American"
+        "pos": "19",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "20    2  0  Liam Lawson / New Zealander / 22      AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "22",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21    1  0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "21",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "22    0  0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   },
@@ -10500,70 +13506,224 @@
         "section": "championship_standings"
       },
       {
-        "pos": "1   575 19  Max Verstappen / Dutch / 26           Red Bull / Austrian"
+        "pos": "1",
+        "pts": "575",
+        "wins": "19",
+        "driver_name": "Max Verstappen",
+        "driver_nationality": "Dutch",
+        "driver_age": "26",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "2   285  2  Sergio Pérez / Mexican / 34           Red Bull / Austrian"
+        "pos": "2",
+        "pts": "285",
+        "wins": "2",
+        "driver_name": "Sergio Pérez",
+        "driver_nationality": "Mexican",
+        "driver_age": "34",
+        "team_name": "Red Bull",
+        "team_nationality": "Austrian"
       },
       {
-        "pos": "3   234  0  Lewis Hamilton / British / 39         Mercedes / German"
+        "pos": "3",
+        "pts": "234",
+        "wins": "0",
+        "driver_name": "Lewis Hamilton",
+        "driver_nationality": "British",
+        "driver_age": "39",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "4   206  0  Fernando Alonso / Spanish / 42        Aston Martin / British"
+        "pos": "4",
+        "pts": "206",
+        "wins": "0",
+        "driver_name": "Fernando Alonso",
+        "driver_nationality": "Spanish",
+        "driver_age": "42",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "5   206  0  Charles Leclerc / Monegasque / 26     Ferrari / Italian"
+        "pos": "5",
+        "pts": "206",
+        "wins": "0",
+        "driver_name": "Charles Leclerc",
+        "driver_nationality": "Monegasque",
+        "driver_age": "26",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "6   205  0  Lando Norris / British / 24           McLaren / British"
+        "pos": "6",
+        "pts": "205",
+        "wins": "0",
+        "driver_name": "Lando Norris",
+        "driver_nationality": "British",
+        "driver_age": "24",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "7   200  1  Carlos Sainz / Spanish / 29           Ferrari / Italian"
+        "pos": "7",
+        "pts": "200",
+        "wins": "1",
+        "driver_name": "Carlos Sainz",
+        "driver_nationality": "Spanish",
+        "driver_age": "29",
+        "team_name": "Ferrari",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "8   175  0  George Russell / British / 26         Mercedes / German"
+        "pos": "8",
+        "pts": "175",
+        "wins": "0",
+        "driver_name": "George Russell",
+        "driver_nationality": "British",
+        "driver_age": "26",
+        "team_name": "Mercedes",
+        "team_nationality": "German"
       },
       {
-        "pos": "9   97   0  Oscar Piastri / Australian / 23       McLaren / British"
+        "pos": "9",
+        "pts": "97",
+        "wins": "0",
+        "driver_name": "Oscar Piastri",
+        "driver_nationality": "Australian",
+        "driver_age": "23",
+        "team_name": "McLaren",
+        "team_nationality": "British"
       },
       {
-        "pos": "10  74   0  Lance Stroll / Canadian / 25          Aston Martin / British"
+        "pos": "10",
+        "pts": "74",
+        "wins": "0",
+        "driver_name": "Lance Stroll",
+        "driver_nationality": "Canadian",
+        "driver_age": "25",
+        "team_name": "Aston Martin",
+        "team_nationality": "British"
       },
       {
-        "pos": "11  62   0  Pierre Gasly / French / 28            Alpine F1 Team / French"
+        "pos": "11",
+        "pts": "62",
+        "wins": "0",
+        "driver_name": "Pierre Gasly",
+        "driver_nationality": "French",
+        "driver_age": "28",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "12  58   0  Esteban Ocon / French / 27            Alpine F1 Team / French"
+        "pos": "12",
+        "pts": "58",
+        "wins": "0",
+        "driver_name": "Esteban Ocon",
+        "driver_nationality": "French",
+        "driver_age": "27",
+        "team_name": "Alpine F1 Team",
+        "team_nationality": "French"
       },
       {
-        "pos": "13  27   0  Alexander Albon / Thai / 28           Williams / British"
+        "pos": "13",
+        "pts": "27",
+        "wins": "0",
+        "driver_name": "Alexander Albon",
+        "driver_nationality": "Thai",
+        "driver_age": "28",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "14  17   0  Yuki Tsunoda / Japanese / 23          AlphaTauri / Italian"
+        "pos": "14",
+        "pts": "17",
+        "wins": "0",
+        "driver_name": "Yuki Tsunoda",
+        "driver_nationality": "Japanese",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "15  10   0  Valtteri Bottas / Finnish / 35        Alfa Romeo / Swiss"
+        "pos": "15",
+        "pts": "10",
+        "wins": "0",
+        "driver_name": "Valtteri Bottas",
+        "driver_nationality": "Finnish",
+        "driver_age": "35",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "16  9    0  Nico Hülkenberg / German / 36        Haas F1 Team / American"
+        "pos": "16",
+        "pts": "9",
+        "wins": "0",
+        "driver_name": "Nico Hülkenberg",
+        "driver_nationality": "German",
+        "driver_age": "36",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "17  6    0  Daniel Ricciardo / Australian / 35    AlphaTauri / Italian"
+        "pos": "17",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Daniel Ricciardo",
+        "driver_nationality": "Australian",
+        "driver_age": "35",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "18  6    0  Guanyu Zhou / Chinese / 24            Alfa Romeo / Swiss"
+        "pos": "18",
+        "pts": "6",
+        "wins": "0",
+        "driver_name": "Guanyu Zhou",
+        "driver_nationality": "Chinese",
+        "driver_age": "24",
+        "team_name": "Alfa Romeo",
+        "team_nationality": "Swiss"
       },
       {
-        "pos": "19  3    0  Kevin Magnussen / Danish / 32         Haas F1 Team / American"
+        "pos": "19",
+        "pts": "3",
+        "wins": "0",
+        "driver_name": "Kevin Magnussen",
+        "driver_nationality": "Danish",
+        "driver_age": "32",
+        "team_name": "Haas F1 Team",
+        "team_nationality": "American"
       },
       {
-        "pos": "20  2    0  Liam Lawson / New Zealander / 23      AlphaTauri / Italian"
+        "pos": "20",
+        "pts": "2",
+        "wins": "0",
+        "driver_name": "Liam Lawson",
+        "driver_nationality": "New Zealander",
+        "driver_age": "23",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       },
       {
-        "pos": "21  1    0  Logan Sargeant / American / 24        Williams / British"
+        "pos": "21",
+        "pts": "1",
+        "wins": "0",
+        "driver_name": "Logan Sargeant",
+        "driver_nationality": "American",
+        "driver_age": "24",
+        "team_name": "Williams",
+        "team_nationality": "British"
       },
       {
-        "pos": "22  0    0  Nyck de Vries / Dutch / 29            AlphaTauri / Italian"
+        "pos": "22",
+        "pts": "0",
+        "wins": "0",
+        "driver_name": "Nyck de Vries",
+        "driver_nationality": "Dutch",
+        "driver_age": "29",
+        "team_name": "AlphaTauri",
+        "team_nationality": "Italian"
       }
     ]
   }
