@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Season Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; }
+    header { padding: 1rem; background: #111; color: white; text-align: center; }
+    main { display: flex; flex-wrap: wrap; padding: 1rem; gap: 2rem; }
+    section { flex: 1 1 45%; min-width: 400px; }
+    .chart-container { height: 400px; }
+    .commentary { background: #f7f7f7; padding: 1rem; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>F1 Season Visualizer</h1>
+  <input type="file" id="jsonFileInput" accept=".json"/>
+</header>
+
+<main>
+  <section>
+    <h2>Driver Progression</h2>
+    <div id="driverProgression" class="chart-container"></div>
+    <div class="commentary" id="driverCommentary">[Driver commentary will appear here]</div>
+  </section>
+
+  <section>
+    <h2>Constructor Trends</h2>
+    <div id="constructorTrends" class="chart-container"></div>
+    <div class="commentary" id="constructorCommentary">[Constructor commentary will appear here]</div>
+  </section>
+
+  <section>
+    <h2>Qualifying vs Race Heatmap</h2>
+    <div id="qualRaceHeatmap" class="chart-container"></div>
+    <div class="commentary" id="qualCommentary">[Heatmap commentary will appear here]</div>
+  </section>
+
+  <section>
+    <h2>DNF Tracker</h2>
+    <div id="dnfChart" class="chart-container"></div>
+    <div class="commentary" id="dnfCommentary">[DNF commentary will appear here]</div>
+  </section>
+</main>
+
+<script src="f1_visualizer.js"></script>
+</body>
+</html>
