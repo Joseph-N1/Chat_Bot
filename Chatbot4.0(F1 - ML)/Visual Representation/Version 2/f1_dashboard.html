@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Data Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    .f1-gradient {
+      background: linear-gradient(135deg, #e10600 0%, #000000 100%);
+    }
+    .race-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    .loading-spinner {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="f1-gradient text-white py-6 shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-flag-checkered text-3xl"></i>
+        <h1 class="text-3xl font-bold">F1 Data Dashboard</h1>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span id="current-date" class="text-lg"></span>
+        <button id="refresh-btn"
+                class="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">
+          <i class="fas fa-sync-alt mr-2"></i>Refresh Data
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Current Season -->
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-md p-6">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-2xl font-bold text-gray-800">
+            <i class="fas fa-calendar-alt text-red-600 mr-2"></i>
+            2024 Season Races
+          </h2>
+          <div class="flex items-center space-x-2">
+            <span class="text-sm text-gray-500">Total Races:</span>
+            <span id="total-races"
+                  class="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">24</span>
+          </div>
+        </div>
+        <div id="races-container" class="space-y-4">
+          <div id="races-loading"
+               class="flex justify-center items-center py-12">
+            <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Monaco History -->
+      <div class="bg-white rounded-xl shadow-md p-6 h-full">
+        <div class="flex items-center mb-6">
+          <h2 class="text-2xl font-bold text-gray-800">
+            <i class="fas fa-history text-red-600 mr-2"></i>
+            Monaco GP History
+          </h2>
+          <div class="ml-auto bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold">
+            2021-2024
+          </div>
+        </div>
+        <div id="monaco-container" class="space-y-4">
+          <div id="monaco-loading"
+               class="flex justify-center items-center py-12">
+            <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Statistics -->
+    <div class="mt-8 bg-white rounded-xl shadow-md p-6">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">
+        <i class="fas fa-chart-bar text-red-600 mr-2"></i>
+        Season Statistics
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-red-100 p-3 rounded-full mr-4">
+            <i class="fas fa-trophy text-red-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm">Most Wins (2024)</p>
+            <h3 id="most-wins" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-blue-100 p-3 rounded-full mr-4">
+            <i class="fas fa-stopwatch text-blue-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm">Fastest Lap (2024)</p>
+            <h3 id="fastest-lap" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-yellow-100 p-3 rounded-full mr-4">
+            <i class="fas fa-star text-yellow-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm">Monaco Winners</p>
+            <h3 id="monaco-winners" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="f1-gradient text-white py-6 mt-12">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2024 F1 Data Dashboard | Powered by Fast F1 API</p>
+      <div class="flex justify-center space-x-4 mt-4">
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-github"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set current date
+    document.getElementById('current-date').textContent =
+      new Date().toLocaleDateString('en-US', {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+      });
+
+    async function fetchSeasonData(year) {
+      try {
+        const res = await fetch(
+          `https://raw.githubusercontent.com/Joseph-N1/Chat_Bot/main/DataBase/F1_Seasons_Cleaned_${year}.json`
+        );
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const payload = await res.json();
+        return payload.data || payload;
+      } catch (e) {
+        console.error(`Error loading ${year}:`, e);
+        return [];
+      }
+    }
+
+    async function renderRaces() {
+      const racesContainer = document.getElementById('races-container');
+      document.getElementById('races-loading').remove();
+
+      const season = await fetchSeasonData(2024);
+      document.getElementById('total-races').textContent = season.length;
+
+      season.forEach(raceData => {
+        const entries = raceData.data;
+        const qIdx = entries.findIndex(e => e.section === 'qualifying_results');
+        const rIdx = entries.findIndex(e => e.section === 'race_results');
+        const sIdx = entries.findIndex(e => e.section === 'championship_standings');
+
+        const qualifying   = entries.slice(qIdx + 1, rIdx);
+        const raceResults  = entries.slice(rIdx + 1, sIdx);
+        const standings     = entries.slice(sIdx + 1);
+
+        const qualiWinner  = qualifying.find(d => d.position === "1")?.driver   || 'N/A';
+        const fastestQuali = qualifying
+                              .filter(d => d.q3)
+                              .sort((a,b) => a.q3.localeCompare(b.q3))[0]
+                              ?.q3                  || 'N/A';
+        const raceWinner   = raceResults
+                              .find(d => String(d['finish position']) === "1")
+                              ?.driver              || 'N/A';
+        const champLeader  = standings.find(d => d.pos === "1")?.driver_name   || 'N/A';
+
+        const card = document.createElement('div');
+        card.className = 'race-card bg-gray-50 rounded-lg p-4 border-l-4 border-red-600 transition duration-300 ease-in-out';
+        card.innerHTML = `
+          <div class="flex justify-between">
+            <h3 class="font-bold text-lg">${raceData.race_name}</h3>
+            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-bold">Completed</span>
+          </div>
+          <div class="mt-4 grid grid-cols-2 gap-4">
+            <div>
+              <p class="text-gray-500 text-xs">Pole Position</p>
+              <p class="font-semibold">${qualiWinner}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Fastest Quali</p>
+              <p class="font-semibold">${fastestQuali}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Race Winner</p>
+              <p class="font-semibold">${raceWinner}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Championship Leader</p>
+              <p class="font-semibold">${champLeader}</p>
+            </div>
+          </div>`;
+        racesContainer.appendChild(card);
+      });
+    }
+
+    async function renderMonacoHistory() {
+      const monacoContainer = document.getElementById('monaco-container');
+      document.getElementById('monaco-loading').remove();
+
+      const seasons = await Promise.all([2021,2022,2023,2024].map(fetchSeasonData));
+      seasons.forEach((season, i) => {
+        const year = 2021 + i;
+        const race = season.find(r => r.race_name.includes('Monaco'));
+        if (!race) return;
+
+        const entries = race.data;
+        const rIdx    = entries.findIndex(e => e.section === 'race_results');
+        const sIdx    = entries.findIndex(e => e.section === 'championship_standings');
+        const raceResults = entries.slice(rIdx+1, sIdx);
+        const winner      = raceResults.find(d => String(d['finish position'])==="1")?.driver || 'N/A';
+
+        const card = document.createElement('div');
+        card.className = 'race-card bg-gray-50 rounded-lg p-4 border-l-4 border-blue-600 transition duration-300 ease-in-out';
+        card.innerHTML = `
+          <div class="flex justify-between items-start">
+            <h3 class="font-bold text-lg">Monaco GP ${year}</h3>
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-bold">Completed</span>
+          </div>
+          <div class="mt-4 flex items-center">
+            <div class="bg-yellow-100 text-yellow-800 p-1 rounded-full mr-2">
+              <i class="fas fa-trophy text-xs"></i>
+            </div>
+            <p class="font-semibold">${winner}</p>
+          </div>`;
+        monacoContainer.appendChild(card);
+      });
+    }
+
+    async function updateStatistics() {
+      const season = await fetchSeasonData(2024);
+      const winCounts = {};
+      const lapEntries = [];
+
+      // Gather wins & lap times
+      season.forEach(race => {
+        const e = race.data;
+        const qIdx = e.findIndex(x => x.section==='qualifying_results');
+        const rIdx = e.findIndex(x => x.section==='race_results');
+        const sIdx = e.findIndex(x => x.section==='championship_standings');
+        const qualifying  = e.slice(qIdx+1, rIdx);
+        const raceResults = e.slice(rIdx+1, sIdx);
+
+        // fastest lap
+        qualifying.filter(d=>d.q3).forEach(d=>{
+          lapEntries.push({time:d.q3, driver:d.driver});
+        });
+
+        // win
+        const w = raceResults.find(d=>String(d['finish position'])==='1')?.driver;
+        if (w) winCounts[w] = (winCounts[w]||0) + 1;
+      });
+
+      // Most wins
+      const [mostDriver, mostWins] = Object.entries(winCounts)
+        .reduce((a,b)=> b[1]>a[1]?b:a, ['N/A',0]);
+      document.getElementById('most-wins').textContent =
+        `${mostDriver} (${mostWins})`;
+
+      // Fastest lap overall
+      lapEntries.sort((a,b)=> a.time.localeCompare(b.time));
+      const fastest = lapEntries[0];
+      document.getElementById('fastest-lap').textContent =
+        fastest
+          ? `${fastest.time} (${fastest.driver})`
+          : 'N/A';
+
+      // Monaco winners (2021–24)
+      const seasons = await Promise.all([2021,2022,2023,2024].map(fetchSeasonData));
+      const monacoWinners = [];
+      seasons.forEach((s,i)=>{
+        const r = s.find(r=>r.race_name.includes('Monaco'));
+        if (!r) return;
+        const e = r.data;
+        const rIdx = e.findIndex(x=>x.section==='race_results');
+        const sIdx = e.findIndex(x=>x.section==='championship_standings');
+        const raceResults = e.slice(rIdx+1, sIdx);
+        const w = raceResults.find(d=>String(d['finish position'])==='1')?.driver;
+        if (w) monacoWinners.push(w);
+      });
+      const unique = [...new Set(monacoWinners)];
+      document.getElementById('monaco-winners').textContent =
+        `${unique.length} different winners (${unique.join(', ')})`;
+    }
+
+    document.getElementById('refresh-btn').addEventListener('click', () => {
+      document.getElementById('races-container').innerHTML = `
+        <div id="races-loading" class="flex justify-center items-center py-12">
+          <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+        </div>`;
+      document.getElementById('monaco-container').innerHTML = `
+        <div id="monaco-loading" class="flex justify-center items-center py-12">
+          <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+        </div>`;
+      setTimeout(async () => {
+        await renderRaces();
+        await renderMonacoHistory();
+        await updateStatistics();
+        const note = document.createElement('div');
+        note.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg flex items-center';
+        note.innerHTML = `<i class="fas fa-check-circle mr-2"></i>Data refreshed successfully!`;
+        document.body.appendChild(note);
+        setTimeout(()=>note.remove(),3000);
+      }, 1500);
+    });
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      await renderRaces();
+      await renderMonacoHistory();
+      await updateStatistics();
+    });
+  </script>
+</body>
+</html>
