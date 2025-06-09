@@ -6,6 +6,7 @@ from collections import defaultdict
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBRanker
+import numpy as np
 
 # ------------------------
 # Section: Configuration
@@ -52,30 +53,49 @@ def generate_driver_codes(championship_data):
             elif surname == 'Doohan': code = 'DOO'
             elif surname == 'Lawson': code = 'LAW'
             elif surname == 'Sargeant': code = 'SAR'
+            elif surname == 'Guanyu': code = 'ZHO'  # Zhou Guanyu special case
             else:
                 code = surname[:3].upper()  # Default first 3 letters of surname
             codes[full_name] = code
+            codes[surname] = code  # Also map surname for race results
     return codes
 
-def get_driver_code(full_name):
+def get_driver_code(name):
     """Get standardized 3-letter driver code"""
-    return DRIVER_CODES.get(full_name, full_name.split()[-1][:3].upper())
+    return DRIVER_CODES.get(name, name[:3].upper())
 
 # ------------------------
 # Section: Data Loading
 # ------------------------
 def load_season(year):
+    """Load season data from JSON file"""
     path = os.path.join(DB_DIR, f"F1_Seasons_Cleaned_{year}.json")
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        # Initialize driver codes if we have championship data
-        if isinstance(data, list):
-            for item in data:
-                if isinstance(item, dict) and 'section' in item and item['section'] == 'championship_standings':
-                    global DRIVER_CODES
-                    DRIVER_CODES = generate_driver_codes(data[data.index(item)+1:])
-                    break
-        return data
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+            # Initialize driver codes from championship data
+            global DRIVER_CODES
+            for race in data:
+                if isinstance(race, dict) and 'data' in race:
+                    for item in race['data']:
+                        if isinstance(item, dict) and item.get('section') == 'championship_standings':
+                            # Find championship data after the section marker
+                            race_data = race['data']
+                            section_idx = race_data.index(item)
+                            champ_data = race_data[section_idx+1:]
+                            DRIVER_CODES = generate_driver_codes(champ_data)
+                            break
+                    if DRIVER_CODES:
+                        break
+            
+            return data
+    except FileNotFoundError:
+        print(f"Error: Could not find file {path}")
+        return []
+    except json.JSONDecodeError:
+        print(f"Error: Invalid JSON in file {path}")
+        return []
 
 # ------------------------
 # Section: Feature Engineering
@@ -88,75 +108,132 @@ def extract_race_features(races, up_to_race):
         if not isinstance(race, dict) or 'data' not in race:
             continue
             
-        # Find all race_results sections (there might be multiple)
-        results_sections = [
-            i for i, item in enumerate(race['data']) 
-            if isinstance(item, dict) and item.get('section') == 'race_results'
-        ]
+        # Find race_results section
+        race_data = race['data']
+        results_section_idx = None
         
-        for section_idx in results_sections:
-            # Process all entries after race_results marker
-            for item in race['data'][section_idx+1:]:
-                if not isinstance(item, dict) or 'driver' not in item:
-                    continue  # Skip non-driver entries
-                    
-                try:
-                    records.append({
-                        'driver': item['driver'],
-                        'team': item['team'],
-                        'start_pos': int(item.get('starting position', 20)),
-                        'finish_pos': int(item.get('finish position', 20)),
-                        'points': int(item.get('points', 0)),
-                        'fastest_lap': 1 if item.get('fastest lap time') else 0,
-                        'dnf': 1 if str(item.get('dnf', 'No')).lower() == 'yes' else 0
-                    })
-                except (ValueError, KeyError) as e:
-                    print(f"Warning: Skipping malformed driver data - {e}")
-                    continue
-                    
+        for i, item in enumerate(race_data):
+            if isinstance(item, dict) and item.get('section') == 'race_results':
+                results_section_idx = i
+                break
+        
+        if results_section_idx is None:
+            continue
+            
+        # Process all entries after race_results marker
+        for item in race_data[results_section_idx+1:]:
+            if not isinstance(item, dict) or 'driver' not in item:
+                continue
+                
+            # Skip if we hit another section
+            if 'section' in item:
+                break
+                
+            try:
+                records.append({
+                    'driver': item['driver'],
+                    'team': item['team'],
+                    'start_pos': int(item.get('starting position', 20)),
+                    'finish_pos': int(item.get('finish position', 20)),
+                    'points': int(item.get('points', 0)),
+                    'fastest_lap': 1 if item.get('fastest lap time') and item.get('fastest lap time').strip() else 0,
+                    'dnf': 1 if str(item.get('dnf', 'No')).lower() == 'yes' else 0
+                })
+            except (ValueError, KeyError) as e:
+                print(f"Warning: Skipping malformed driver data - {e}")
+                continue
+                
     return pd.DataFrame(records)
 
 # Hot streak detection
 def detect_hot_streak(df, driver_name):
-    driver_points = df[df['driver'] == driver_name].sort_index()
-    last3 = driver_points.tail(3)['points'].sum()
-    avg = driver_points['points'].mean()
-    return 1 if (avg and last3 > 1.5 * avg) else 0
+    """Detect if driver is on a hot streak based on recent performance"""
+    driver_data = df[df['driver'] == driver_name]
+    if len(driver_data) < 3:
+        return 0
+        
+    # Sort by index to get chronological order
+    driver_data = driver_data.sort_index()
+    last3_points = driver_data.tail(3)['points'].sum()
+    avg_points = driver_data['points'].mean()
+    
+    return 1 if (avg_points > 0 and last3_points > 1.5 * len(driver_data) * avg_points / len(driver_data)) else 0
 
 # Monaco history features
 def load_monaco_history():
+    """Load Monaco GP historical results"""
     podiums = []
-    for y in MONACO_HISTORY_YEARS:
-        season = load_season(y)
-        # find Monaco gp
-        for race in season['data']:
-            if 'Monaco Grand Prix' in race.get('race_name', ''):
-                results = [d for d in race['data'] if d.get('section') == 'race_results'][1:]
-                top3 = results[:3]
-                for pos, d in enumerate(top3, start=1):
-                    podiums.append({'driver': d['driver'], 'year': y, 'pos': pos, 'team': d['team']})
+    
+    for year in MONACO_HISTORY_YEARS:
+        try:
+            season_data = load_season(year)
+            
+            # Find Monaco GP
+            for race in season_data:
+                if isinstance(race, dict) and 'race_name' in race:
+                    if 'Monaco' in race['race_name']:
+                        # Find race results section
+                        race_data = race['data']
+                        results_section_idx = None
+                        
+                        for i, item in enumerate(race_data):
+                            if isinstance(item, dict) and item.get('section') == 'race_results':
+                                results_section_idx = i
+                                break
+                        
+                        if results_section_idx is not None:
+                            # Get top 3 finishers
+                            race_results = []
+                            for item in race_data[results_section_idx+1:]:
+                                if isinstance(item, dict) and 'driver' in item and 'section' not in item:
+                                    race_results.append(item)
+                                elif 'section' in item:
+                                    break
+                            
+                            # Sort by finish position and get top 3
+                            race_results.sort(key=lambda x: int(x.get('finish position', 999)))
+                            for pos, result in enumerate(race_results[:3], 1):
+                                podiums.append({
+                                    'driver': result['driver'],
+                                    'year': year,
+                                    'pos': pos,
+                                    'team': result['team']
+                                })
+                        break
+        except Exception as e:
+            print(f"Warning: Could not load Monaco history for {year}: {e}")
+            continue
+    
     return pd.DataFrame(podiums)
 
 # ------------------------
 # Section: Model Training
 # ------------------------
 def train_models(X, y_class, group):
+    """Train both classification and ranking models"""
     # RandomForest for podium classification (top3 vs others)
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
     rf.fit(X, y_class)
+    
     # XGBoost ranker for full grid ordering
     xgb = XGBRanker(objective='rank:pairwise', random_state=42)
     xgb.fit(X, y_class, group=group)
+    
     return rf, xgb
 
 # ------------------------
 # Section: Prediction & Output
 # ------------------------
 def predict_and_output(drivers_df, rf, xgb):
+    """Make predictions and output results"""
     X_pred = drivers_df.drop(columns=['driver', 'team'])
-    probs = rf.predict_proba(X_pred)[:, 1]
+    
+    # Get probabilities and rankings
+    probs = rf.predict_proba(X_pred)[:, 1] if rf.predict_proba(X_pred).shape[1] > 1 else rf.predict_proba(X_pred)[:, 0]
     drivers_df['podium_prob'] = probs
     drivers_df['rank_score'] = xgb.predict(X_pred)
+    
+    # Sort by combined score
     drivers_df = drivers_df.sort_values(['podium_prob', 'rank_score'], ascending=False)
     
     # Convert to driver codes
@@ -164,151 +241,150 @@ def predict_and_output(drivers_df, rf, xgb):
     
     confidence = float(100 * drivers_df.head(3)['podium_prob'].mean())
     
-    # Improved key factors
+    # Generate key factors
     key_factors = {}
     for _, row in drivers_df.head(3).iterrows():
         factors = []
         if row['hot_streak']: factors.append("On hot streak")
-        if row['monaco_podiums']: factors.append(f"{row['monaco_podiums']} past Monaco podiums")
+        if row['monaco_podiums'] > 0: factors.append(f"{int(row['monaco_podiums'])} past Monaco podiums")
         if row['avg_pos_change'] > 0: factors.append(f"Average +{row['avg_pos_change']:.1f} positions gained")
-        key_factors[get_driver_code(row['driver'])] = ", ".join(factors) or "Consistent performer"
+        if row['fastest_lap_count'] > 0: factors.append(f"{int(row['fastest_lap_count'])} fastest laps")
+        key_factors[get_driver_code(row['driver'])] = ", ".join(factors) if factors else "Consistent performer"
     
-    out = {
+    # Output results
+    output = {
         "predicted_podium": top3,
         "confidence_level": round(confidence, 1),
         "key_factors": key_factors
     }
-    print(json.dumps(out, indent=2))
+    
+    print(json.dumps(output, indent=2))
+    
+    # Save to file
     with open(OUTPUT_FILE, 'w') as f:
-        json.dump(out, f, indent=2)
+        json.dump(output, f, indent=2)
+    
+    print(f"Prediction saved to {OUTPUT_FILE}")
 
 # ------------------------
 # Main Execution
 # ------------------------
 def main():
     try:
+        print("Loading 2024 season data...")
         season_data = load_season(2024)
         
-        # Process races - looking for race_name entries
-        races = []
-        current_race = None
+        if not season_data:
+            print("[ERROR] No season data loaded")
+            return
         
-        for item in season_data:
-            if isinstance(item, dict) and 'race_name' in item:
-                if current_race:
-                    races.append(current_race)
-                current_race = {
-                    'race_name': item['race_name'],
-                    'data': []
-                }
-            elif current_race:
-                current_race['data'].append(item)
+        print(f"Found {len(season_data)} races in season")
         
-        if current_race:
-            races.append(current_race)
-            
-        print(f"Found {len(races)} races")
-        if races:
-            print(f"First race has {len(races[0]['data'])} data items")
-            print("Sample data items:", [x for x in races[0]['data'] if isinstance(x, dict)][:3])
-
-        # Historical features
-        hist_df = extract_race_features(races, PRE_MONACO_COUNT)
+        # Count races before Monaco
+        races_before_monaco = 0
+        monaco_found = False
+        
+        for race in season_data:
+            if isinstance(race, dict) and 'race_name' in race:
+                if 'Monaco' in race['race_name']:
+                    monaco_found = True
+                    break
+                races_before_monaco += 1
+        
+        if not monaco_found:
+            print("[WARNING] Monaco GP not found in data, using all available races")
+            races_before_monaco = len(season_data)
+        
+        use_races = min(races_before_monaco, PRE_MONACO_COUNT)
+        print(f"Using {use_races} races for training")
+        
+        # Extract features from races before Monaco
+        hist_df = extract_race_features(season_data, use_races)
         
         if hist_df.empty:
-            print("[ERROR] No race data extracted. Possible issues:")
-            print("- Check JSON structure matches expected format")
-            print("- Verify race results contain proper driver data")
-            if races:
-                print(f"- First race structure: {races[0]}")
+            print("[ERROR] No race data extracted")
             return
-
+        
+        print(f"Extracted {len(hist_df)} driver records")
+        
         # Build feature matrix
         drivers = hist_df['driver'].unique()
-        feats = []
-
-        for d in drivers:
-            sub = hist_df[hist_df['driver'] == d]
-            feats.append({
-                'driver': d,
-                'team': sub['team'].mode()[0] if not sub['team'].mode().empty else "Unknown",
-                'avg_pos_change': (sub['start_pos'] - sub['finish_pos']).mean(),
-                'dnf_rate': sub['dnf'].mean(),
-                'fastest_lap_count': sub['fastest_lap'].sum(),
-                'hot_streak': detect_hot_streak(hist_df, d)
+        features = []
+        
+        for driver in drivers:
+            driver_data = hist_df[hist_df['driver'] == driver]
+            
+            features.append({
+                'driver': driver,
+                'team': driver_data['team'].mode()[0] if not driver_data['team'].mode().empty else "Unknown",
+                'avg_pos_change': (driver_data['start_pos'] - driver_data['finish_pos']).mean(),
+                'dnf_rate': driver_data['dnf'].mean(),
+                'fastest_lap_count': driver_data['fastest_lap'].sum(),
+                'hot_streak': detect_hot_streak(hist_df, driver)
             })
-
-        drivers_df = pd.DataFrame(feats)
-
-        # Monaco history counts
+        
+        drivers_df = pd.DataFrame(features)
+        print(f"Created features for {len(drivers_df)} drivers")
+        
+        # Add Monaco history
         try:
-            mdf = load_monaco_history()
-            counts = mdf.groupby('driver').size().to_dict()
-            drivers_df['monaco_podiums'] = drivers_df['driver'].map(counts).fillna(0)
+            monaco_history = load_monaco_history()
+            if not monaco_history.empty:
+                monaco_counts = monaco_history.groupby('driver').size().to_dict()
+                drivers_df['monaco_podiums'] = drivers_df['driver'].map(monaco_counts).fillna(0)
+                print(f"Added Monaco history for {len(monaco_counts)} drivers")
+            else:
+                drivers_df['monaco_podiums'] = 0
+                print("No Monaco history found")
         except Exception as e:
             print(f"[WARNING] Could not load Monaco history: {e}")
             drivers_df['monaco_podiums'] = 0
-
-        # Prepare labels and group for training
-        extracted_records = extract_race_features(races, PRE_MONACO_COUNT).to_dict('records')
-        if not extracted_records:
-            print("[ERROR] No extracted records for labeling.")
-            return
-            
-        labels = [1 if r['finish_pos'] <= 3 else 0 for r in extracted_records]
         
-        try:
-            X = hist_df.drop(columns=['driver','team','points']).reset_index(drop=True)
-        except KeyError as e:
-            print(f"[ERROR] Missing expected column in hist_df: {e}")
-            return
-            
-        y = labels
-
-        # Grouping logic for XGBoost ranking
-        try:
-            races_per_driver = hist_df.groupby('driver').size()
-            if len(races_per_driver.unique()) == 1:
-                group = [races_per_driver[0]] * PRE_MONACO_COUNT
-            else:
-                group = list(races_per_driver)
-        except Exception as e:
-            print(f"[ERROR] Group calculation failed: {e}")
-            group = [len(drivers)] * PRE_MONACO_COUNT
-
-                # Train models
-        try:
-            rf, xgb = train_models(X, y, group)
-        except Exception as e:
-            print(f"[ERROR] Model training failed: {e}")
-            return
-
-        # Prediction and output
-        try:
-            predict_and_output(drivers_df, rf, xgb)
-        except Exception as e:
-            print(f"[ERROR] Prediction or output failed: {e}")
-            return
-
+        # Prepare training data
+        X = drivers_df[['avg_pos_change', 'dnf_rate', 'fastest_lap_count', 'hot_streak', 'monaco_podiums']]
+        
+        # Create labels (1 for podium finishers, 0 for others)
+        y = []
+        for _, row in hist_df.iterrows():
+            y.append(1 if row['finish_pos'] <= 3 else 0)
+        
+        # Create groups for XGBoost (number of records per race)
+        race_counts = hist_df.groupby(hist_df.index // 20).size().tolist()  # Assuming ~20 drivers per race
+        group = race_counts if race_counts else [len(drivers)]
+        
+        print(f"Training models with {len(X)} samples...")
+        
+        # Train models
+        rf, xgb = train_models(X, y, group)
+        
+        # Make predictions
+        predict_and_output(drivers_df, rf, xgb)
+        
     except Exception as e:
-        print(f"[FATAL ERROR] Failed during main execution: {e}")
+        print(f"[FATAL ERROR] {e}")
+        import traceback
+        traceback.print_exc()
 
 # ------------------------
-# Constants and Entry Point
+# Entry Point
 # ------------------------
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--db_dir', type=str, required=True, help='Path to directory containing JSON season data')
-    parser.add_argument('--pre_monaco_count', type=int, default=6, help='Number of races before Monaco to use for training')
-    parser.add_argument('--output_file', type=str, default='monaco_prediction.json', help='Path to output prediction JSON')
-    parser.add_argument('--monaco_history_years', nargs='+', type=int, default=[2019, 2021, 2022, 2023], help='Years to include for Monaco GP history')
-
+    parser = argparse.ArgumentParser(description='Predict Monaco GP podium finishers')
+    parser.add_argument('--db_dir', type=str, help='Path to directory containing JSON season data')
+    parser.add_argument('--pre_monaco_count', type=int, default=7, help='Number of races before Monaco to use')
+    parser.add_argument('--output_file', type=str, default='monaco_prediction.json', help='Output file path')
+    parser.add_argument('--monaco_history_years', nargs='+', type=int, default=[2021, 2022, 2023], help='Years for Monaco history')
+    
     args = parser.parse_args()
-    # Assign global constants
-    global DB_DIR, PRE_MONACO_COUNT, OUTPUT_FILE, MONACO_HISTORY_YEARS
-    DB_DIR = args.db_dir
-    PRE_MONACO_COUNT = args.pre_monaco_count
-    OUTPUT_FILE = args.output_file
-    MONACO_HISTORY_YEARS = args.monaco_history_years
-
+    
+    # Update global variables if provided
+    if args.db_dir:
+        DB_DIR = args.db_dir
+    if args.pre_monaco_count:
+        PRE_MONACO_COUNT = args.pre_monaco_count
+    if args.output_file:
+        OUTPUT_FILE = args.output_file
+    if args.monaco_history_years:
+        MONACO_HISTORY_YEARS = args.monaco_history_years
+    
     main()
