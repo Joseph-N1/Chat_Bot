@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Data Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    .f1-gradient {
+      background: linear-gradient(135deg, #e10600 0%, #000000 100%);
+    }
+    .race-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    .loading-spinner {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .track-search-container {
+      position: relative;
+      width: 100%;
+    }
+    .track-search-input {
+      background-color: white;
+      color: #1f2937;
+      border: 2px solid #e5e7eb;
+    }
+    /* Collapsible search panel */
+    .collapsible-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+    .collapsible-content.open {
+      max-height: 500px;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="f1-gradient text-white py-6 shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-flag-checkered text-3xl"></i>
+        <h1 class="text-3xl font-bold">F1 Data Dashboard</h1>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span id="current-date" class="text-lg"></span>
+        <select id="season-select" class="bg-gray-800 text-white px-3 py-2 rounded-lg border-none focus:ring-2 focus:ring-red-600">
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+        </select>
+        <button id="refresh-btn"
+                class="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">
+          <i class="fas fa-sync-alt mr-2"></i>Refresh Data
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Current Season -->
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-md p-6">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-2xl font-bold text-gray-800">
+            <i class="fas fa-calendar-alt text-red-600 mr-2"></i>
+            <span id="season-title">2024</span> Season Races
+          </h2>
+          <div class="flex items-center space-x-2">
+            <span class="text-sm text-gray-500">Total Races:</span>
+            <span id="total-races"
+                  class="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">24</span>
+          </div>
+        </div>
+        <div id="races-container" class="space-y-4">
+          <div id="races-loading"
+               class="flex justify-center items-center py-12">
+            <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Track History -->
+      <div class="bg-white rounded-xl shadow-md p-6 h-full">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-bold text-gray-800">
+            <i class="fas fa-history text-red-600 mr-2"></i>
+            Track History
+          </h2>
+          <button id="search-toggle" class="text-gray-500 hover:text-red-600 transition">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        
+        <!-- Collapsible search panel -->
+        <div id="search-container" class="collapsible-content">
+          <div class="mb-4 flex items-center">
+            <div class="flex-1 track-search-container">
+              <input type="text" id="track-input" list="track-suggestions"
+                     placeholder="Enter track name (e.g. Monaco)"
+                     class="track-search-input w-full rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600">
+              <datalist id="track-suggestions">
+                <option value="Monaco">
+                <option value="Silverstone">
+                <option value="Monza">
+                <option value="Spa">
+                <option value="Suzuka">
+                <option value="Melbourne">
+                <option value="Montreal">
+                <option value="Singapore">
+                <option value="Bahrain">
+                <option value="Abu Dhabi">
+              </datalist>
+            </div>
+            <button id="track-search-btn" class="ml-2 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="flex justify-end">
+            <div class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold">
+              2020-2024
+            </div>
+          </div>
+        </div>
+        
+        <div id="track-history-container" class="space-y-4">
+          <div id="track-loading"
+               class="flex justify-center items-center py-12">
+            <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Statistics -->
+    <div class="mt-8 bg-white rounded-xl shadow-md p-6">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">
+        <i class="fas fa-chart-bar text-red-600 mr-2"></i>
+        Season Statistics
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-red-100 p-3 rounded-full mr-4">
+            <i class="fas fa-trophy text-red-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm">Most Wins <span class="season-stat-label">(2024)</span></p>
+            <h3 id="most-wins" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-blue-100 p-3 rounded-full mr-4">
+            <i class="fas fa-stopwatch text-blue-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm">Fastest Lap <span class="season-stat-label">(2024)</span></p>
+            <h3 id="fastest-lap" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg flex items-center">
+          <div class="bg-yellow-100 p-3 rounded-full mr-4">
+            <i class="fas fa-star text-yellow-600 text-xl"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 text-sm"><span id="track-name-label">Monaco</span> Winners</p>
+            <h3 id="track-winners" class="text-xl font-bold">Loading...</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="f1-gradient text-white py-6 mt-12">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2024 F1 Data Dashboard | Powered by Fast F1 API</p>
+      <div class="flex justify-center space-x-4 mt-4">
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-github"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // State variables
+    let currentSeason = 2024;
+    let currentTrack = "Monaco";
+
+    // Set current date
+    document.getElementById('current-date').textContent =
+      new Date().toLocaleDateString('en-US', {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+      });
+
+    // Initialize selectors
+    document.getElementById('season-select').value = currentSeason;
+    document.getElementById('track-input').value = currentTrack;
+
+    // Toggle search panel
+    const searchToggle = document.getElementById('search-toggle');
+    const searchContainer = document.getElementById('search-container');
+    searchToggle.addEventListener('click', () => {
+      searchContainer.classList.toggle('open');
+    });
+
+    async function fetchSeasonData(year) {
+      try {
+        const res = await fetch(
+          `https://raw.githubusercontent.com/Joseph-N1/Chat_Bot/main/DataBase/F1_Seasons_Cleaned_${year}.json`
+        );
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const payload = await res.json();
+        return payload.data || payload;
+      } catch (e) {
+        console.error(`Error loading ${year}:`, e);
+        return [];
+      }
+    }
+
+    async function renderRaces(season = currentSeason) {
+      const racesContainer = document.getElementById('races-container');
+      document.getElementById('races-loading')?.remove();
+      
+      document.getElementById('season-title').textContent = season;
+      
+      const seasonData = await fetchSeasonData(season);
+      document.getElementById('total-races').textContent = seasonData.length;
+
+      seasonData.forEach(raceData => {
+        const entries = raceData.data;
+        const qIdx = entries.findIndex(e => e.section === 'qualifying_results');
+        const rIdx = entries.findIndex(e => e.section === 'race_results');
+        const sIdx = entries.findIndex(e => e.section === 'championship_standings');
+
+        const qualifying   = entries.slice(qIdx + 1, rIdx);
+        const raceResults  = entries.slice(rIdx + 1, sIdx);
+        const standings   = entries.slice(sIdx + 1);
+
+        const qualiWinner  = qualifying.find(d => d.position === "1")?.driver   || 'N/A';
+        const fastestQuali = qualifying
+                              .filter(d => d.q3)
+                              .sort((a,b) => a.q3.localeCompare(b.q3))[0]
+                              ?.q3                  || 'N/A';
+        const raceWinner   = raceResults
+                              .find(d => String(d['finish position']) === "1")
+                              ?.driver              || 'N/A';
+        const champLeader  = standings.find(d => d.pos === "1")?.driver_name   || 'N/A';
+
+        const card = document.createElement('div');
+        card.className = 'race-card bg-gray-50 rounded-lg p-4 border-l-4 border-red-600 transition duration-300 ease-in-out';
+        card.innerHTML = `
+          <div class="flex justify-between">
+            <h3 class="font-bold text-lg">${raceData.race_name}</h3>
+            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-bold">Completed</span>
+          </div>
+          <div class="mt-4 grid grid-cols-2 gap-4">
+            <div>
+              <p class="text-gray-500 text-xs">Pole Position</p>
+              <p class="font-semibold">${qualiWinner}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Fastest Quali</p>
+              <p class="font-semibold">${fastestQuali}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Race Winner</p>
+              <p class="font-semibold">${raceWinner}</p>
+            </div>
+            <div>
+              <p class="text-gray-500 text-xs">Championship Leader</p>
+              <p class="font-semibold">${champLeader}</p>
+            </div>
+          </div>`;
+        racesContainer.appendChild(card);
+      });
+    }
+
+    // NEW: Robust winner extraction
+    function extractWinner(raceData) {
+      if (!raceData || !raceData.data) return 'N/A';
+      
+      const entries = raceData.data;
+      const raceResultsIndex = entries.findIndex(e => e.section === 'race_results');
+      
+      if (raceResultsIndex === -1) return 'N/A';
+      
+      // Find race results section
+      let raceResults = [];
+      for (let i = raceResultsIndex + 1; i < entries.length; i++) {
+        if (entries[i].section) break; // Stop at next section
+        raceResults.push(entries[i]);
+      }
+      
+      // Find winner by position
+      const winner = raceResults.find(d => 
+        d['finish position'] === "1" || 
+        d.position === "1" ||
+        d['finish position'] === 1 || 
+        d.position === 1
+      );
+      
+      return winner?.driver || winner?.driver_name || 'N/A';
+    }
+
+    async function renderTrackHistory(trackName = currentTrack) {
+      const container = document.getElementById('track-history-container');
+      document.getElementById('track-loading')?.remove();
+      
+      document.getElementById('track-name-label').textContent = trackName;
+      
+      const years = [2020, 2021, 2022, 2023, 2024];
+      container.innerHTML = '<div id="track-loading" class="flex justify-center items-center py-12"><div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div></div>';
+      
+      try {
+        const allSeasons = await Promise.all(years.map(fetchSeasonData));
+        container.innerHTML = '';
+        
+        years.forEach((year, index) => {
+          const season = allSeasons[index];
+          if (!season || season.length === 0) return;
+          
+          // Find matching race
+          const race = season.find(r => 
+            r.race_name.toLowerCase().includes(trackName.toLowerCase())
+          );
+          
+          if (race) {
+            const winner = extractWinner(race);
+            
+            const card = document.createElement('div');
+            card.className = 'race-card bg-gray-50 rounded-lg p-4 border-l-4 border-blue-600 transition duration-300 ease-in-out';
+            card.innerHTML = `
+              <div class="flex justify-between items-start">
+                <div>
+                  <h3 class="font-bold text-lg">${race.race_name}</h3>
+                  <p class="text-sm text-gray-500">${year} Season</p>
+                </div>
+                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-bold">Completed</span>
+              </div>
+              <div class="mt-4 flex items-center">
+                <div class="bg-yellow-100 text-yellow-800 p-2 rounded-full mr-3">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <div>
+                  <p class="text-gray-500 text-xs">Winner</p>
+                  <p class="font-semibold">${winner}</p>
+                </div>
+              </div>`;
+            container.appendChild(card);
+          } else {
+            const card = document.createElement('div');
+            card.className = 'text-center py-4 text-gray-500 bg-gray-50 rounded-lg';
+            card.innerHTML = `
+              <i class="fas fa-exclamation-circle text-red-500 text-xl mb-2"></i>
+              <p>No ${trackName} GP data for ${year}</p>
+            `;
+            container.appendChild(card);
+          }
+        });
+      } catch (error) {
+        console.error("Error loading track history:", error);
+        container.innerHTML = '<div class="text-center py-4 text-red-500">Error loading data</div>';
+      }
+    }
+
+    async function updateStatistics(season = currentSeason, trackName = currentTrack) {
+      const seasonData = await fetchSeasonData(season);
+      const winCounts = {};
+      const lapEntries = [];
+
+      seasonData.forEach(race => {
+        const e = race.data;
+        const qIdx = e.findIndex(x => x.section==='qualifying_results');
+        const rIdx = e.findIndex(x => x.section==='race_results');
+        const sIdx = e.findIndex(x => x.section==='championship_standings');
+        const qualifying  = e.slice(qIdx+1, rIdx);
+        const raceResults = e.slice(rIdx+1, sIdx);
+
+        qualifying.filter(d=>d.q3).forEach(d=>{
+          lapEntries.push({time:d.q3, driver:d.driver});
+        });
+
+        const w = raceResults.find(d=>String(d['finish position'])==='1')?.driver;
+        if (w) winCounts[w] = (winCounts[w]||0) + 1;
+      });
+
+      const [mostDriver, mostWins] = Object.entries(winCounts)
+        .reduce((a,b)=> b[1]>a[1]?b:a, ['N/A',0]);
+      document.getElementById('most-wins').textContent =
+        `${mostDriver} (${mostWins})`;
+
+      lapEntries.sort((a,b)=> a.time.localeCompare(b.time));
+      const fastest = lapEntries[0];
+      document.getElementById('fastest-lap').textContent =
+        fastest
+          ? `${fastest.time} (${fastest.driver})`
+          : 'N/A';
+
+      const allSeasons = await Promise.all([2020, 2021, 2022, 2023, 2024].map(fetchSeasonData));
+      const trackWinners = [];
+      allSeasons.forEach((s,i)=>{
+        const r = s.find(r=>r.race_name.toLowerCase().includes(trackName.toLowerCase()));
+        if (!r) return;
+        const winner = extractWinner(r);
+        if (winner !== 'N/A') trackWinners.push(winner);
+      });
+      const unique = [...new Set(trackWinners)];
+      document.getElementById('track-winners').textContent =
+        `${unique.length} different winners (${unique.join(', ')})`;
+        
+      document.querySelectorAll('.season-stat-label').forEach(el => {
+        el.textContent = `(${season})`;
+      });
+    }
+
+    async function reloadData() {
+      document.getElementById('races-container').innerHTML = `
+        <div id="races-loading" class="flex justify-center items-center py-12">
+          <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+        </div>`;
+      
+      document.getElementById('track-history-container').innerHTML = `
+        <div id="track-loading" class="flex justify-center items-center py-12">
+          <div class="loading-spinner border-4 border-red-600 border-t-transparent rounded-full w-12 h-12"></div>
+        </div>`;
+      
+      try {
+        await Promise.all([
+          renderRaces(currentSeason),
+          renderTrackHistory(currentTrack),
+          updateStatistics(currentSeason, currentTrack)
+        ]);
+        
+        const note = document.createElement('div');
+        note.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg flex items-center';
+        note.innerHTML = `<i class="fas fa-check-circle mr-2"></i>Data loaded successfully!`;
+        document.body.appendChild(note);
+        setTimeout(()=>note.remove(),3000);
+      } catch (error) {
+        console.error("Error reloading data:", error);
+      }
+    }
+
+    // Initialize search panel
+    searchContainer.classList.add('open');
+
+    // Search functionality
+    document.getElementById('season-select').addEventListener('change', async (e) => {
+      currentSeason = parseInt(e.target.value);
+      await reloadData();
+    });
+
+    function performSearch() {
+      currentTrack = document.getElementById('track-input').value.trim();
+      if (currentTrack) {
+        reloadData();
+        // Keep search panel open during search
+        searchContainer.classList.add('open');
+      }
+    }
+
+    document.getElementById('track-input').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+
+    document.getElementById('track-search-btn').addEventListener('click', performSearch);
+    
+    document.getElementById('refresh-btn').addEventListener('click', async () => {
+      await reloadData();
+    });
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      await reloadData();
+    });
+  </script>
+</body>
+</html>
