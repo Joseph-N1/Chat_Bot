@@ -1,0 +1,13 @@
+{
+  "predicted_podium": [
+    "PER",
+    "NOR",
+    "SAI"
+  ],
+  "confidence_level": 86.7,
+  "key_factors": {
+    "PER": "On hot streak, 1 past Monaco podiums, Average +1.0 positions gained",
+    "NOR": "On hot streak, 1 past Monaco podiums, Average +0.8 positions gained",
+    "SAI": "On hot streak, 2 past Monaco podiums, Average +0.3 positions gained"
+  }
+}

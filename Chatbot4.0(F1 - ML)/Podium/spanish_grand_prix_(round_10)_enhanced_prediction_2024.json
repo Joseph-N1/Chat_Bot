@@ -1,0 +1,97 @@
+{
+  "race_predicted": "Spanish Grand Prix (Round 10)",
+  "races_used_for_training": 9,
+  "predicted_podium": [
+    "VER",
+    "RUS",
+    "HAM"
+  ],
+  "confidence_level": 92.1,
+  "key_factors": {
+    "VER": "On hot streak, 3 past podiums at this track, 2 fastest laps, Strong recent form (1.69), Race day improver (+32.0 avg)",
+    "RUS": "On hot streak, 2 past podiums at this track, 1 fastest laps, Strong recent form (1.31), Race day improver (+25.5 avg)",
+    "HAM": "On hot streak, 2 past podiums at this track, Average +1.1 positions gained, 2 fastest laps, Strong recent form (1.19), Race day improver (+23.5 avg)"
+  },
+  "detailed_predictions": [
+    {
+      "driver": "VER",
+      "full_name": "Verstappen",
+      "team": "Red Bull",
+      "podium_probability": 92.4,
+      "recent_form": 1.69,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "RUS",
+      "full_name": "Russell",
+      "team": "Mercedes",
+      "podium_probability": 92.4,
+      "recent_form": 1.313,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "HAM",
+      "full_name": "Hamilton",
+      "team": "Mercedes",
+      "podium_probability": 91.5,
+      "recent_form": 1.19,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "SAI",
+      "full_name": "Sainz",
+      "team": "Ferrari",
+      "podium_probability": 90.8,
+      "recent_form": 0.775,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "LEC",
+      "full_name": "Leclerc",
+      "team": "Ferrari",
+      "podium_probability": 90.0,
+      "recent_form": 0.917,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "PIA",
+      "full_name": "Piastri",
+      "team": "McLaren",
+      "podium_probability": 89.8,
+      "recent_form": 1.378,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "NOR",
+      "full_name": "Norris",
+      "team": "McLaren",
+      "podium_probability": 89.8,
+      "recent_form": 1.557,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "PER",
+      "full_name": "P\u00e9rez",
+      "team": "Red Bull",
+      "podium_probability": 71.2,
+      "recent_form": 0.177,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "ALO",
+      "full_name": "Alonso",
+      "team": "Aston Martin",
+      "podium_probability": 42.2,
+      "recent_form": 0.668,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "STR",
+      "full_name": "Stroll",
+      "team": "Aston Martin",
+      "podium_probability": 23.3,
+      "recent_form": 0.667,
+      "qualifying_performance": 0.3
+    }
+  ]
+}

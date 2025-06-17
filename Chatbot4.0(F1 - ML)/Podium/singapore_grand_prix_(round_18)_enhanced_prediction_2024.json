@@ -1,0 +1,97 @@
+{
+  "race_predicted": "Singapore Grand Prix (Round 18)",
+  "races_used_for_training": 17,
+  "predicted_podium": [
+    "VER",
+    "LEC",
+    "NOR"
+  ],
+  "confidence_level": 96.0,
+  "key_factors": {
+    "VER": "On hot streak, 2 fastest laps, Strong recent form (1.24), Race day improver (+32.2 avg)",
+    "LEC": "On hot streak, 1 past podiums at this track, 1 fastest laps, Strong recent form (1.75), Race day improver (+29.6 avg)",
+    "NOR": "On hot streak, 1 past podiums at this track, 4 fastest laps, Strong recent form (1.53), Race day improver (+31.9 avg)"
+  },
+  "detailed_predictions": [
+    {
+      "driver": "VER",
+      "full_name": "Verstappen",
+      "team": "Red Bull",
+      "podium_probability": 96.1,
+      "recent_form": 1.235,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "LEC",
+      "full_name": "Leclerc",
+      "team": "Ferrari",
+      "podium_probability": 96.0,
+      "recent_form": 1.752,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "NOR",
+      "full_name": "Norris",
+      "team": "McLaren",
+      "podium_probability": 96.0,
+      "recent_form": 1.532,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "HAM",
+      "full_name": "Hamilton",
+      "team": "Mercedes",
+      "podium_probability": 95.0,
+      "recent_form": 0.875,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "PIA",
+      "full_name": "Piastri",
+      "team": "McLaren",
+      "podium_probability": 94.9,
+      "recent_form": 1.778,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "RUS",
+      "full_name": "Russell",
+      "team": "Mercedes",
+      "podium_probability": 94.0,
+      "recent_form": 1.22,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "SAI",
+      "full_name": "Sainz",
+      "team": "Ferrari",
+      "podium_probability": 92.7,
+      "recent_form": 0.668,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "ALO",
+      "full_name": "Alonso",
+      "team": "Aston Martin",
+      "podium_probability": 85.2,
+      "recent_form": 0.783,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "PER",
+      "full_name": "P\u00e9rez",
+      "team": "Red Bull",
+      "podium_probability": 76.0,
+      "recent_form": 0.498,
+      "qualifying_performance": 0.3
+    },
+    {
+      "driver": "COL",
+      "full_name": "Colapinto",
+      "team": "Williams",
+      "podium_probability": 45.0,
+      "recent_form": 0.69,
+      "qualifying_performance": 0.3
+    }
+  ]
+}
