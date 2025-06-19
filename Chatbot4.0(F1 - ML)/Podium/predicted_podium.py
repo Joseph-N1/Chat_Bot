@@ -316,41 +316,17 @@ def calculate_recent_form(df, driver_name, window=3):
     
     return form_score / total_weight if total_weight > 0 else 0.0
 
-def calculate_qualifying_performance(df, driver_name):
-    """Calculate enhanced qualifying performance with much higher weight"""
+def calculate_average_starting_position(df, driver_name):
+    """Calculate average starting position for a driver"""
     driver_data = df[df['driver'] == driver_name]
     
     if len(driver_data) == 0:
-        return 0.5, 0.0  # Neutral scores if no data
+        return 15.0  # Default middle-grid position if no data
     
-    # Calculate average qualifying position - this is the key metric
-    avg_quali_pos = driver_data['quali_pos'].mean()
-    avg_quali_score = driver_data['quali_score'].mean()
+    # Calculate average starting position
+    avg_start_pos = driver_data['start_pos'].mean()
     
-    # Calculate qualifying vs race position improvement rate
-    quali_improvements = []
-    for _, race in driver_data.iterrows():
-        if race['quali_pos'] > 0 and race['finish_pos'] > 0:
-            improvement = race['quali_pos'] - race['finish_pos']  # Positive = gained positions
-            quali_improvements.append(improvement)
-    
-    avg_improvement = np.mean(quali_improvements) if quali_improvements else 0
-    
-    # Enhanced qualifying score calculation with much higher weight
-    # Use the pre-calculated normalized score
-    quali_score = avg_quali_score
-    
-    # Major boost for front-runners (this is where the magic happens)
-    if avg_quali_pos <= 3:
-        quali_score = min(quali_score * 3.0, 1.0)  # Triple boost for pole/front row
-    elif avg_quali_pos <= 6:
-        quali_score = min(quali_score * 2.5, 1.0)  # 2.5x boost for top 6
-    elif avg_quali_pos <= 10:
-        quali_score = min(quali_score * 2.0, 1.0)  # Double boost for Q3
-    else:
-        quali_score = min(quali_score * 1.5, 1.0)  # Still boost others
-    
-    return quali_score, avg_improvement
+    return avg_start_pos
 
 # Hot streak detection (enhanced)
 def detect_hot_streak(df, driver_name):
@@ -422,6 +398,7 @@ def load_track_history(target_race_key):
                                         'driver': driver_name,
                                         'year': year,
                                         'finish_pos': int(item.get('finish position', 20)),
+                                        'start_pos': int(item.get('starting position', 20)),
                                         'quali_pos': quali_info['quali_pos'],
                                         'quali_score': quali_info['quali_score'],
                                         'points': int(item.get('points', 0)),
@@ -496,7 +473,7 @@ def predict_and_output(drivers_df, rf, target_race_name, races_used):
         if row['avg_pos_change'] > 0: factors.append(f"Average +{row['avg_pos_change']:.1f} positions gained")
         if row['fastest_lap_count'] > 0: factors.append(f"{int(row['fastest_lap_count'])} fastest laps")
         if row['recent_form'] > 0.6: factors.append(f"Strong recent form ({row['recent_form']:.2f})")
-        if row['quali_performance'] > 0.6: factors.append(f"Strong qualifier ({row['quali_performance']:.2f})")
+        if row['avg_starting_position'] <= 5: factors.append(f"Good qualifier (avg P{row['avg_starting_position']:.1f})")
         if row['avg_quali_improvement'] > 2: factors.append(f"Race day improver (+{row['avg_quali_improvement']:.1f} avg)")
         
         key_factors[get_driver_code(row['driver'])] = ", ".join(factors) if factors else "Consistent performer"
@@ -515,7 +492,7 @@ def predict_and_output(drivers_df, rf, target_race_name, races_used):
                 "team": row['team'],
                 "podium_probability": round(row['podium_prob'] * 100, 1),
                 "recent_form": round(row['recent_form'], 3),
-                "qualifying_performance": round(row['quali_performance'], 3)
+                "avg_starting_position": round(row['avg_starting_position'], 1)
             }
             for _, row in drivers_df.head(10).iterrows()
         ]
@@ -562,7 +539,7 @@ def main():
                     print(f"  {i+1}. {race['race_name']}")
             return
         
-        print(f"🎯 Target race: {target_race_name} (Position {target_race_idx + 1})")
+        print(f"🎯 Target race: {target_race_name} (Round {target_race_idx + 1}) (Position {target_race_idx + 1})")
         
         # Use all races before the target race
         races_before_target = target_race_idx
@@ -579,7 +556,7 @@ def main():
             print("[ERROR] No race data extracted")
             return
         
-        print(f"✅ Extracted {len(hist_df)} driver records with enhanced qualifying data")
+        print(f"✅ Extracted {len(hist_df)} driver records with starting position data")
         
         # Build enhanced feature matrix
         drivers = hist_df['driver'].unique()
@@ -600,11 +577,17 @@ def main():
             hot_streak = detect_hot_streak(hist_df, driver)
             recent_form = calculate_recent_form(hist_df, driver)
             
-            # MAJOR CHANGE: Enhanced qualifying performance with much higher weight
-            quali_performance, avg_quali_improvement = calculate_qualifying_performance(hist_df, driver)
+            # NEW: Replace quali_performance with average starting position
+            avg_starting_position = calculate_average_starting_position(hist_df, driver)
             
-            # BOOST qualifying metrics significantly
-            quali_performance = min(quali_performance * 4.0, 1.0)  # 4x boost for qualifying
+            # Calculate qualifying vs race position improvement rate
+            quali_improvements = []
+            for _, race in driver_data.iterrows():
+                if race['start_pos'] > 0 and race['finish_pos'] > 0:
+                    improvement = race['start_pos'] - race['finish_pos']  # Positive = gained positions
+                    quali_improvements.append(improvement)
+            
+            avg_quali_improvement = np.mean(quali_improvements) if quali_improvements else 0
             avg_quali_improvement = abs(avg_quali_improvement) * 2.0  # Double the improvement factor
             
             # Calculate podium rate as target
@@ -613,7 +596,7 @@ def main():
             podium_rate = podium_finishes / total_races if total_races > 0 else 0
             
             # Enhanced classification: high podium performers vs others
-            is_podium_contender = 1 if (podium_rate > 0.15 or podium_finishes > 1 or recent_form > 0.7 or quali_performance > 0.7) else 0
+            is_podium_contender = 1 if (podium_rate > 0.15 or podium_finishes > 1 or recent_form > 0.7 or avg_starting_position <= 6) else 0
             
             features.append({
                 'driver': driver,
@@ -623,8 +606,8 @@ def main():
                 'fastest_lap_count': fastest_lap_count,
                 'hot_streak': hot_streak,
                 'recent_form': recent_form,
-                'quali_performance': quali_performance,  # Now 4x boosted
-                'avg_quali_improvement': avg_quali_improvement  # Now 2x boosted
+                'avg_starting_position': avg_starting_position,  # NEW: Replace quali_performance
+                'avg_quali_improvement': avg_quali_improvement  # Still 2x boosted
             })
             
             labels.append(is_podium_contender)
@@ -639,33 +622,33 @@ def main():
                 # Calculate track metrics
                 track_podiums = track_history.groupby('driver')['finish_pos'].apply(lambda x: (x <= 3).sum()).to_dict()
                 track_avg_pos = track_history.groupby('driver')['finish_pos'].mean().to_dict()
-                track_quali_avg = track_history.groupby('driver')['quali_score'].mean().to_dict()
+                track_start_avg = track_history.groupby('driver')['start_pos'].mean().to_dict()
                 
                 # Add track metrics to drivers dataframe
                 drivers_df['track_podiums'] = drivers_df['driver'].map(track_podiums).fillna(0)
                 drivers_df['track_avg_pos'] = drivers_df['driver'].map(track_avg_pos).fillna(15.0)
-                drivers_df['track_quali_avg'] = drivers_df['driver'].map(track_quali_avg).fillna(0.25)
+                drivers_df['track_start_avg'] = drivers_df['driver'].map(track_start_avg).fillna(15.0)
                 
                 # Normalize track_avg_pos to be a positive feature (lower position = higher score)
                 drivers_df['track_avg_pos'] = drivers_df['track_avg_pos'].apply(lambda x: max(0, (21 - x) / 20))
                 
-                print(f"✅ Added enhanced {target_race_key} track history with qualifying data")
+                print(f"✅ Added enhanced {target_race_key} track history with starting position data")
             else:
                 drivers_df['track_podiums'] = 0
                 drivers_df['track_avg_pos'] = 0.25
-                drivers_df['track_quali_avg'] = 0.25
+                drivers_df['track_start_avg'] = 15.0
                 print(f"⚠️  No {target_race_key} track history found")
         except Exception as e:
             print(f"[WARNING] Could not load {target_race_key} track history: {e}")
             drivers_df['track_podiums'] = 0
             drivers_df['track_avg_pos'] = 0.25
-            drivers_df['track_quali_avg'] = 0.25
+            drivers_df['track_start_avg'] = 15.0
         
         # Prepare enhanced training data
         feature_columns = [
             'avg_pos_change', 'dnf_rate', 'fastest_lap_count', 'hot_streak', 
-            'recent_form', 'quali_performance', 'avg_quali_improvement',
-            'track_podiums', 'track_avg_pos', 'track_quali_avg'
+            'recent_form', 'avg_starting_position', 'avg_quali_improvement',
+            'track_podiums', 'track_avg_pos', 'track_start_avg'
         ]
         
         X = drivers_df[feature_columns]
