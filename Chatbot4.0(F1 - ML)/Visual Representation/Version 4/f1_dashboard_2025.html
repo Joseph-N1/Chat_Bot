@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 2025 Season Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ferrari: '#e4002b',
+                        haas: '#7f0000',
+                        mercedes: '#00a19c',
+                        rbr: '#071e66',
+                        alpine: '#0067ff',
+                        aston: '#0d8448',
+                        sauber: '#51e000',
+                        rb: '#4990ba',
+                        mclaren: '#ff8000',
+                        williams: '#00a1ff'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .team-ferrari td:first-child { border-left: 5px solid #e4002b; }
+        .team-haas td:first-child { border-left: 5px solid #7f0000; }
+        .team-mercedes td:first-child { border-left: 5px solid #00a19c; }
+        .team-rbr td:first-child { border-left: 5px solid #071e66; }
+        .team-alpine td:first-child { border-left: 5px solid #0067ff; }
+        .team-aston td:first-child { border-left: 5px solid #0d8448; }
+        .team-sauber td:first-child { border-left: 5px solid #51e000; }
+        .team-rb td:first-child { border-left: 5px solid #4990ba; }
+        .team-mclaren td:first-child { border-left: 5px solid #ff8000; }
+        .team-williams td:first-child { border-left: 5px solid #00a1ff; }
+        
+        .team-ferrari { background-color: rgba(228, 0, 43, 0.08); }
+        .team-haas { background-color: rgba(127, 0, 0, 0.08); }
+        .team-mercedes { background-color: rgba(0, 161, 156, 0.08); }
+        .team-rbr { background-color: rgba(7, 30, 102, 0.08); }
+        .team-alpine { background-color: rgba(0, 103, 255, 0.08); }
+        .team-aston { background-color: rgba(13, 132, 72, 0.08); }
+        .team-sauber { background-color: rgba(81, 224, 0, 0.08); }
+        .team-rb { background-color: rgba(73, 144, 186, 0.08); }
+        .team-mclaren { background-color: rgba(255, 128, 0, 0.08); }
+        .team-williams { background-color: rgba(0, 161, 255, 0.08); }
+        
+        .driver-img {
+            filter: drop-shadow(0 0 4px rgba(0,0,0,0.2));
+            transition: transform 0.3s;
+        }
+        .driver-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .tire-soft { background-color: #ffcccc; border: 1px solid #ff6666; }
+        .tire-medium { background-color: #ffffcc; border: 1px solid #cccc00; }
+        .tire-hard { background-color: #e6e6e6; border: 1px solid #999999; }
+        .tire-intermediate { background-color: #ccffff; border: 1px solid #00cccc; }
+        .tire-wet { background-color: #ccccff; border: 1px solid #6666ff; }
+        
+        .track-map {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            border-radius: 10px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .track-path {
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            width: 80%;
+            height: 50%;
+            border: 3px solid #f1c40f;
+            border-radius: 50% 50% 0 0;
+        }
+        
+        .track-path::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 3px solid #f1c40f;
+            border-top: none;
+            border-radius: 0 0 50% 50%;
+        }
+        
+        .pit-stop {
+            background-color: #e74c3c;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="sticky top-0 shadow-md z-10">
+        <div class="bg-gradient-to-br from-red-700 to-blue-900 text-white">
+            <div class="container mx-auto py-4 px-4 flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="https://i.imgur.com/DMUdDUd.png" alt="F1 Logo" class="h-12 mr-4">
+                    <div>
+                        <h1 class="text-3xl font-bold">F1 2025 Season</h1>
+                        <p class="text-yellow-300 text-sm">Official Race Data Viewer</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="flex space-x-2">
+                        <div id="current-round" class="bg-gray-800 px-3 py-2 rounded-full">
+                            <span class="text-yellow-400 font-medium">Round 10</span>
+                            <span>Current: Canadian GP</span>
+                        </div>
+                        <div class="bg-gray-800 px-3 py-2 rounded-full">
+                            <span>Current Leader: </span>
+                            <span id="current-leader" class="text-yellow-400 font-medium">Max Verstappen</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="bg-gray-800">
+                <div class="container mx-auto px-4">
+                    <div class="flex justify-end items-center py-2">
+                        <div class="md:hidden">
+                            <button id="mobile-menu-button" class="text-white p-2">
+                                <i class="fas fa-bars text-xl"></i>
+                            </button>
+                        </div>
+                        <ul class="hidden md:flex space-x-1 text-gray-300">
+                            <li class="px-4 py-3 bg-black text-white rounded-t font-medium flex items-center">
+                                <i class="fas fa-table-cells mr-2"></i>
+                                <span>Race Results</span>
+                            </li>
+                            <li class="px-4 py-3 hover:bg-gray-700 rounded-t cursor-pointer">
+                                <span>Constructor Standings</span>
+                            </li>
+                            <li class="px-4 py-3 hover:bg-gray-700 rounded-t cursor-pointer">
+                                <span>Season Calendar</span>
+                            </li>
+                            <li class="px-4 py-3 hover:bg-gray-700 rounded-t cursor-pointer">
+                                <span>Driver Database</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-80 z-20 hidden">
+        <div class="flex justify-end p-6">
+            <button id="close-menu" class="text-white text-3xl"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mt-8">
+            <div class="flex flex-col space-y-4 items-center text-white text-2xl">
+                <a href="#" class="block py-4 hover:text-yellow-300">Race Results</a>
+                <a href="#" class="block py-4 hover:text-yellow-300">Constructor Standings</a>
+                <a href="#" class="block py-4 hover:text-yellow-300">Season Calendar</a>
+                <a href="#" class="block py-4 hover:text-yellow-300">Driver Database</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="container mx-auto py-8 px-4">
+        <div class="mb-8 bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="flex flex-wrap items-center justify-between p-4 border-b">
+                <h2 id="race-name" class="text-2xl md:text-3xl font-bold text-gray-800 flex items-center">
+                    CANADIAN GRAND PRIX
+                </h2>
+                <div class="flex mt-4 md:mt-0">
+                    <div class="relative">
+                        <select id="grand-prix-select" class="block w-full bg-gray-100 border border-gray-300 rounded-md py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="australia">Australian GP (Round 1)</option>
+                            <option value="china">Chinese GP (Round 2)</option>
+                            <option value="japan">Japanese GP (Round 3)</option>
+                            <option value="bahrain">Bahrain GP (Round 4)</option>
+                            <option value="saudi">Saudi Arabian GP (Round 5)</option>
+                            <option value="miami">Miami GP (Round 6)</option>
+                            <option value="imola">Emilia Romagna GP (Round 7)</option>
+                            <option value="monaco">Monaco GP (Round 8)</option>
+                            <option value="spain">Spanish GP (Round 9)</option>
+                            <option value="canada" selected>Canadian GP (Round 10)</option>
+                            <option value="austria">Austrian GP (Round 11) - Upcoming</option>
+                            <option value="britain">British GP (Round 12) - Upcoming</option>
+                            <option value="belgium">Belgian GP (Round 13) - Upcoming</option>
+                            <option value="hungary">Hungarian GP (Round 14) - Upcoming</option>
+                            <option value="netherlands">Dutch GP (Round 15) - Upcoming</option>
+                            <option value="monza">Italian GP (Round 16) - Upcoming</option>
+                            <option value="azerbaijan">Azerbaijan GP (Round 17) - Upcoming</option>
+                            <option value="singapore">Singapore GP (Round 18) - Upcoming</option>
+                            <option value="austin">US GP (Round 19) - Upcoming</option>
+                            <option value="mexico">Mexico City GP (Round 20) - Upcoming</option>
+                            <option value="brazil">Brazilian GP (Round 21) - Upcoming</option>
+                            <option value="vegas">Las Vegas GP (Round 22) - Upcoming</option>
+                            <option value="qatar">Qatar GP (Round 23) - Upcoming</option>
+                            <option value="abudhabi">Abu Dhabi GP (Round 24) - Upcoming</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overview Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
+                <!-- Winner Card -->
+                <div class="bg-blue-50 rounded-xl p-5 flex flex-col border-l-4 border-yellow-400 shadow-sm">
+                    <div class="text-gray-600 pb-2 flex items-center">
+                        <i class="fas fa-trophy mr-2 text-yellow-500"></i>
+                        <span>Race Winner</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16"></div>
+                        <div class="ml-4">
+                            <h3 id="winner-name" class="text-xl font-bold text-gray-800">Max Verstappen</h3>
+                            <p id="winner-team" class="text-gray-600">Red Bull Racing</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fastest Lap -->
+                <div class="bg-blue-50 rounded-xl p-5 flex flex-col border-l-4 border-purple-400 shadow-sm">
+                    <div class="text-gray-600 pb-2 flex items-center">
+                        <i class="fas fa-wind mr-2 text-purple-500"></i>
+                        <span>Fastest Lap</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="ml-4">
+                            <h3 id="fastest-lap-driver" class="text-xl font-bold text-gray-800">Lando Norris</h3>
+                            <div class="mt-2">
+                                <span id="fastest-lap-time" class="text-lg font-bold text-gray-800">1:28.456</span>
+                                <span id="fastest-lap-lap" class="text-gray-600 ml-2 text-sm">(Lap 42)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Overview Stats -->
+                <div class="bg-blue-50 rounded-xl p-5 border-l-4 border-blue-400 shadow-sm">
+                    <div class="text-gray-600 pb-2 flex items-center">
+                        <i class="fas fa-file-lines mr-2 text-blue-500"></i>
+                        <span>Race Overview</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span>Track Length</span>
+                            <span id="track-length" class="font-bold">5.412 km</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Laps Completed</span>
+                            <span id="laps-completed" class="font-bold">57</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Weather</span>
+                            <span id="weather" class="font-bold">Dry</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Safety Cars</span>
+                            <span id="safety-cars" class="font-bold">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Race Data Tabs -->
+        <div class="flex mt-6 mb-4 border-b">
+            <button class="tab-button bg-white px-6 py-3 border-b-2 border-yellow-400 text-yellow-500 font-semibold" data-tab="qualifying">
+                Qualifying Results
+            </button>
+            <button class="tab-button px-6 py-3 border-b-2 border-transparent hover:text-blue-600 font-medium" data-tab="race-results">
+                Race Classification
+            </button>
+            <button class="tab-button px-6 py-3 border-b-2 border-transparent hover:text-blue-600 font-medium" data-tab="standings">
+                Championship Standings
+            </button>
+            <button class="tab-button px-6 py-3 border-b-2 border-transparent hover:text-blue-600 font-medium" data-tab="analysis">
+                Race Analysis
+            </button>
+        </div>
+
+        <!-- Tab Content Containers -->
+        <div id="qualifying" class="tab-content active">
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-800 text-gray-200">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Pos</th>
+                            <th class="py-3 px-4 text-left">Driver</th>
+                            <th class="py-3 px-4 text-left">Constructor</th>
+                            <th class="py-3 px-4 text-center hidden sm:table-cell">Q1</th>
+                            <th class="py-3 px-4 text-center hidden md:table-cell">Q2</th>
+                            <th class="py-3 px-4 text-center">Q3</th>
+                        </tr>
+                    </thead>
+                    <tbody id="qualifying-table">
+                        <!-- Will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="race-results" class="tab-content">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-2">
+                    <div class="bg-white rounded-xl shadow overflow-hidden">
+                        <table class="w-full">
+                            <thead class="bg-gray-800 text-gray-200">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Pos</th>
+                                    <th class="py-3 px-4 text-left">Driver</th>
+                                    <th class="py-3 px-4 text-center">Team</th>
+                                    <th class="py-3 px-4 text-center hidden xl:table-cell">Start Pos</th>
+                                    <th class="py-3 px-4 text-center hidden sm:table-cell">Laps</th>
+                                    <th class="py-3 px-4 text-center">Points</th>
+                                    <th class="py-3 px-4 text-center hidden lg:table-cell">Tires</th>
+                                </tr>
+                            </thead>
+                            <tbody id="race-results-table">
+                                <!-- Will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Race Highlights</h3>
+                    <ul id="race-highlights" class="space-y-3">
+                        <!-- Will be populated by JavaScript -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="standings" class="tab-content">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Driver Standings -->
+                <div class="bg-white rounded-xl shadow overflow-hidden">
+                    <div class="bg-gray-800 text-gray-200 py-3 px-4 font-semibold">
+                        Driver Championship Standings
+                    </div>
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Pos</th>
+                                <th class="py-3 px-4 text-left">Driver</th>
+                                <th class="py-3 px-4 text-center">Team</th>
+                                <th class="py-3 px-4 text-center">Points</th>
+                                <th class="py-3 px-4 text-center hidden sm:table-cell">Wins</th>
+                            </tr>
+                        </thead>
+                        <tbody id="driver-standings-table">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Constructor Standings -->
+                <div class="bg-white rounded-xl shadow overflow-hidden">
+                    <div class="bg-gray-800 text-gray-200 py-3 px-4 font-semibold">
+                        Constructor Championship Standings
+                    </div>
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Pos</th>
+                                <th class="py-3 px-4 text-left">Team</th>
+                                <th class="py-3 px-4 text-center">Points</th>
+                                <th class="py-3 px-4 text-center hidden sm:table-cell">Wins</th>
+                            </tr>
+                        </thead>
+                        <tbody id="constructor-standings-table">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div id="analysis" class="tab-content">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Pit Stop Summary -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Pit Stop Summary</h3>
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="py-2 px-4 text-left">Driver</th>
+                                <th class="py-2 px-4 text-center">Stops</th>
+                                <th class="py-2 px-4 text-center">Total Time</th>
+                                <th class="py-2 px-4 text-center hidden sm:table-cell">Fastest Stop</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pit-stop-table">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Fastest Laps -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Fastest Laps</h3>
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="py-2 px-4 text-left">Driver</th>
+                                <th class="py-2 px-4 text-center">Lap Time</th>
+                                <th class="py-2 px-4 text-center">Lap</th>
+                                <th class="py-2 px-4 text-center hidden sm:table-cell">Avg Speed</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fastest-laps-table">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Track Map -->
+                <div class="md:col-span-2 bg-white rounded-xl shadow p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Circuit Gilles Villeneuve</h3>
+                    <div class="track-map">
+                        <div class="track-path"></div>
+                        <div class="pit-stop" style="top: 30%; left: 15%;"></div>
+                        <div class="pit-stop" style="top: 40%; left: 35%;"></div>
+                        <div class="pit-stop" style="top: 60%; left: 65%;"></div>
+                        <div class="pit-stop" style="top: 70%; left: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- F1 Data Structure -->
+    <script>
+        // F1 Data Structure - This will be in a separate f1-data.js file
+        const f1Data = {
+            currentRound: 10,
+            currentLeader: "Max Verstappen",
+            races: {
+                australia: {
+                    round: 1,
+                    name: "Australian GP",
+                    date: "March 14-16, 2025",
+                    track: "Melbourne",
+                    trackLength: 5.278,
+                    weather: "Sunny",
+                    safetyCars: 2,
+                    winner: {
+                        driver: "Max Verstappen",
+                        team: "Red Bull"
+                    },
+                    fastestLap: {
+                        driver: "Max Verstappen",
+                        time: "1:19.843",
+                        lap: 42
+                    },
+                    results: {
+                        qualifying: [
+                            // Will be filled with your data
+                        ],
+                        race: [
+                            // Will be filled with your data
+                        ]
+                    },
+                    highlights: [
+                        "Verstappen dominated from pole position",
+                        "Safety car on lap 12 after Magnussen crash",
+                        "Hamilton recovered to 4th after starting 7th"
+                    ]
+                },
+                canada: {
+                    round: 10,
+                    name: "Canadian GP",
+                    date: "June 13-15, 2025",
+                    track: "Montreal",
+                    trackLength: 4.361,
+                    weather: "Dry",
+                    safetyCars: 1,
+                    winner: {
+                        driver: "Max Verstappen",
+                        team: "Red Bull"
+                    },
+                    fastestLap: {
+                        driver: "Lando Norris",
+                        time: "1:28.456",
+                        lap: 42
+                    },
+                    results: {
+                        qualifying: [
+                            // Will be filled with your data
+                        ],
+                        race: [
+                            // Will be filled with your data
+                        ]
+                    },
+                    highlights: [
+                        "Verstappen led from start to finish",
+                        "Pérez secured a Red Bull 1-2",
+                        "Sainz overtook Norris on lap 32 for podium",
+                        "Safety car deployed after Tsunoda crash",
+                        "Hamilton recovered from P9 to finish in points"
+                    ]
+                }
+            },
+            standings: {
+                drivers: [
+                    // Will be filled with your data
+                ],
+                constructors: [
+                    // Will be filled with your data
+                ]
+            },
+            pitStopSummary: {
+                canada: [
+                    // Will be filled with your data
+                ]
+            },
+            fastestLaps: {
+                canada: [
+                    // Will be filled with your data
+                ]
+            }
+        };
+        
+        // Initialize with Canadian GP data
+        document.addEventListener('DOMContentLoaded', () => {
+            loadRaceData('canada');
+            loadStandings();
+            loadAnalysisData('canada');
+        });
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.remove('hidden');
+        });
+        
+        document.getElementById('close-menu').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.add('hidden');
+        });
+        
+        // Tab switching functionality
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active classes
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('border-yellow-400', 'text-yellow-500', 'bg-white');
+                    btn.classList.add('border-transparent', 'hover:text-blue-600');
+                });
+                
+                tabContents.forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Add active classes to clicked button
+                button.classList.add('border-yellow-400', 'text-yellow-500', 'bg-white');
+                button.classList.remove('border-transparent', 'hover:text-blue-600');
+                
+                // Show corresponding content
+                const tabId = button.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Grand Prix selector functionality
+        document.getElementById('grand-prix-select').addEventListener('change', function() {
+            const selectedRace = this.value;
+            loadRaceData(selectedRace);
+            loadAnalysisData(selectedRace);
+        });
+        
+        // Function to load race data
+        function loadRaceData(raceId) {
+            const race = f1Data.races[raceId];
+            
+            if (!race) return;
+            
+            // Update header info
+            document.getElementById('current-round').innerHTML = `
+                <span class="text-yellow-400 font-medium">Round ${race.round}</span>
+                <span>Current: ${race.name}</span>
+            `;
+            
+            // Update race name
+            document.getElementById('race-name').textContent = `${race.name} - ${race.date}`;
+            
+            // Update overview cards
+            document.getElementById('winner-name').textContent = race.winner.driver;
+            document.getElementById('winner-team').textContent = race.winner.team;
+            document.getElementById('fastest-lap-driver').textContent = race.fastestLap.driver;
+            document.getElementById('fastest-lap-time').textContent = race.fastestLap.time;
+            document.getElementById('fastest-lap-lap').textContent = `(Lap ${race.fastestLap.lap})`;
+            document.getElementById('track-length').textContent = `${race.trackLength} km`;
+            document.getElementById('laps-completed').textContent = race.results.race ? race.results.race[0].laps : 'N/A';
+            document.getElementById('weather').textContent = race.weather;
+            document.getElementById('safety-cars').textContent = race.safetyCars;
+            
+            // Update highlights
+            const highlightsList = document.getElementById('race-highlights');
+            highlightsList.innerHTML = '';
+            
+            race.highlights.forEach((highlight, index) => {
+                const colors = ['bg-yellow-400', 'bg-blue-400', 'bg-orange-500', 'bg-gray-800', 'bg-red-500'];
+                const color = colors[index % colors.length];
+                
+                const li = document.createElement('li');
+                li.className = 'flex items-start';
+                li.innerHTML = `
+                    <span class="${color} text-white rounded-full h-6 w-6 flex items-center justify-center mr-2 mt-1">${index + 1}</span>
+                    <span>${highlight}</span>
+                `;
+                highlightsList.appendChild(li);
+            });
+            
+            // Populate qualifying table (placeholder)
+            populateTable('#qualifying-table', [
+                {pos: 1, driver: "Max Verstappen", team: "Red Bull", q1: "1:28.866", q2: "1:28.740", q3: "1:28.197"},
+                {pos: 2, driver: "Sergio Pérez", team: "Red Bull", q1: "1:29.303", q2: "1:28.752", q3: "1:28.263"}
+            ]);
+            
+            // Populate race results table (placeholder)
+            populateTable('#race-results-table', [
+                {pos: 1, driver: "Max Verstappen", team: "Red Bull", start: 1, laps: 53, points: 26},
+                {pos: 2, driver: "Sergio Pérez", team: "Red Bull", start: 2, laps: 53, points: 18}
+            ]);
+        }
+        
+        // Function to load standings
+        function loadStandings() {
+            // Populate driver standings (placeholder)
+            populateTable('#driver-standings-table', [
+                {pos: 1, driver: "Max Verstappen", team: "Red Bull", points: 205, wins: 7},
+                {pos: 2, driver: "Sergio Pérez", team: "Red Bull", points: 152, wins: 1}
+            ]);
+            
+            // Populate constructor standings (placeholder)
+            populateTable('#constructor-standings-table', [
+                {pos: 1, team: "Red Bull Racing", points: 357, wins: 8},
+                {pos: 2, team: "Ferrari", points: 222, wins: 1}
+            ]);
+        }
+        
+        // Function to load analysis data
+        function loadAnalysisData(raceId) {
+            // Populate pit stop summary (placeholder)
+            populateTable('#pit-stop-table', [
+                {driver: "Max Verstappen", stops: 2, totalTime: "45.328", fastestStop: "2.12"},
+                {driver: "Sergio Pérez", stops: 2, totalTime: "47.112", fastestStop: "2.34"}
+            ]);
+            
+            // Populate fastest laps (placeholder)
+            populateTable('#fastest-laps-table', [
+                {driver: "Lando Norris", lapTime: "1:28.456", lap: 42, avgSpeed: "212.4 km/h"},
+                {driver: "Max Verstappen", lapTime: "1:28.689", lap: 38, avgSpeed: "211.8 km/h"}
+            ]);
+        }
+        
+        // Generic table population function
+        function populateTable(selector, data) {
+            const tableBody = document.querySelector(`${selector}`);
+            tableBody.innerHTML = '';
+            
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                
+                // Add team class if team is present
+                if (item.team) {
+                    const teamClass = `team-${item.team.toLowerCase().replace(/\s+/g, '-')}`;
+                    row.classList.add(teamClass);
+                }
+                
+                let rowHTML = '';
+                
+                // Handle different table structures
+                if (selector === '#qualifying-table') {
+                    rowHTML = `
+                        <td class="py-3 px-4 font-semibold text-center">${item.pos}</td>
+                        <td class="py-3 px-4 font-semibold">${item.driver}</td>
+                        <td class="py-3 px-4">${item.team}</td>
+                        <td class="py-3 px-4 text-center hidden sm:table-cell">${item.q1 || '-'}</td>
+                        <td class="py-3 px-4 text-center hidden md:table-cell">${item.q2 || '-'}</td>
+                        <td class="py-3 px-4 text-center font-bold ${item.q3 ? 'text-green-700' : ''}">${item.q3 || '-'}</td>
+                    `;
+                } else if (selector === '#race-results-table') {
+                    let posClass = '';
+                    if (item.pos === 1) posClass = 'text-yellow-500';
+                    else if (item.pos === 2) posClass = 'text-blue-400';
+                    else if (item.pos === 3) posClass = 'text-orange-600';
+                    
+                    rowHTML = `
+                        <td class="py-3 px-4 font-semibold text-center ${posClass}">${item.pos}</td>
+                        <td class="py-3 px-4 font-semibold">
+                            <div class="flex items-center">
+                                <div class="bg-gray-200 border-2 border-dashed rounded-xl w-10 h-10"></div>
+                                <span class="ml-2">${item.driver.split(' ')[0]}</span>
+                            </div>
+                        </td>
+                        <td class="py-3 px-4 text-center">${item.team}</td>
+                        <td class="py-3 px-4 text-center hidden xl:table-cell">${item.start}</td>
+                        <td class="py-3 px-4 text-center hidden sm:table-cell">${item.laps}</td>
+                        <td class="py-3 px-4 font-bold text-center ${posClass}">${item.points}</td>
+                        <td class="py-3 px-4 text-center hidden lg:table-cell">
+                            <span class="font-semibold bg-yellow-200 px-2 py-1 rounded">MEDIUM</span>
+                            <span class="bg-gray-300 px-2 py-1 rounded">HARD</span>
+                        </td>
+                    `;
+                } else if (selector === '#driver-standings-table') {
+                    rowHTML = `
+                        <td class="py-3 px-4 font-semibold text-center">${item.pos}</td>
+                        <td class="py-3 px-4 font-semibold">${item.driver}</td>
+                        <td class="py-3 px-4 text-center">${item.team}</td>
+                        <td class="py-3 px-4 font-bold text-center">${item.points}</td>
+                        <td class="py-3 px-4 text-center hidden sm:table-cell">${item.wins}</td>
+                    `;
+                } else if (selector === '#constructor-standings-table') {
+                    rowHTML = `
+                        <td class="py-3 px-4 font-semibold text-center">${item.pos}</td>
+                        <td class="py-3 px-4 font-semibold">${item.team}</td>
+                        <td class="py-3 px-4 font-bold text-center">${item.points}</td>
+                        <td class="py-3 px-4 text-center hidden sm:table-cell">${item.wins}</td>
+                    `;
+                } else if (selector === '#pit-stop-table') {
+                    rowHTML = `
+                        <td class="py-2 px-4">${item.driver}</td>
+                        <td class="py-2 px-4 text-center">${item.stops}</td>
+                        <td class="py-2 px-4 text-center">${item.totalTime}</td>
+                        <td class="py-2 px-4 text-center hidden sm:table-cell">${item.fastestStop}</td>
+                    `;
+                } else if (selector === '#fastest-laps-table') {
+                    rowHTML = `
+                        <td class="py-2 px-4">${item.driver}</td>
+                        <td class="py-2 px-4 text-center font-semibold">${item.lapTime}</td>
+                        <td class="py-2 px-4 text-center">${item.lap}</td>
+                        <td class="py-2 px-4 text-center hidden sm:table-cell">${item.avgSpeed}</td>
+                    `;
+                }
+                
+                row.innerHTML = rowHTML;
+                tableBody.appendChild(row);
+            });
+        }
+    </script>
+</body>
+</html>
